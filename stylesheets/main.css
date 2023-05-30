@@ -1,5 +1,13 @@
 /*GENERAL*/
 
+@import "/stylesheets/page1.css";
+@import "/stylesheets/page2.css";
+@import "/stylesheets/page3.css";
+@import "/stylesheets/page4.css";
+@import "/stylesheets/page5.css";
+@import "/stylesheets/page6.css";
+@import "/stylesheets/page7.css";
+
 :root {
     /*COLORS*/
    --body-color: #a35a06cc;
