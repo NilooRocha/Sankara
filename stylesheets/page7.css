@@ -1,0 +1,300 @@
+
+@media screen and (max-width: 767px) {
+
+    /*****CONTACT*****/
+
+    .title-contact h2 {
+        font-size: var(--title-sizeM);
+        text-align: center;
+        padding: 50px 25px 25px 25px;
+        margin-bottom: 0;
+        margin-top: 70px;
+    }
+
+
+
+.content-contact{
+display: column;
+
+}
+
+
+.info ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.info{
+    padding: 30px 50px 10px 50px;
+}
+
+
+/****MAIL******/
+
+
+.mail-icon a{
+    display: flex;
+    gap: 20px;
+}
+
+ i.fa-regular {
+font-size: 2em;
+}
+
+
+/****POSITION*****/
+.position-icon a{
+    display: flex;
+    gap: 30px;
+}
+
+i.fa-solid{
+    font-size: 1.8em;
+}
+
+/*****TELEPHONE*****/
+
+.tel-icon a{
+    display: flex;
+    gap: 25px;
+}
+
+
+
+/*****IVA-ICON*****/
+.iva-icon {
+    display: flex;
+    gap: 36px;
+    margin-left: 13px;
+   
+}
+
+.iva-icon li{
+    margin-top: 8px;
+}
+ 
+ /*******IMG*****/
+    .img-contact img {
+        max-width: 80%;
+border-radius: 70%;
+object-fit: cover;
+    }
+
+    .img-contact {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+    /*****CONTACT*****/
+
+
+#contact{
+    margin: 0 100px 0 100px;
+}
+
+
+    .title-contact h2 {
+        font-size: var(--title-sizeT);
+        text-align: center;
+        padding: 50px 25px 25px 25px;
+        margin-bottom: 0;
+        margin-top: 70px;
+    }
+
+
+
+.content-contact{
+display: column;
+
+}
+
+
+.info ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.info{
+    padding: 30px 50px 10px 50px;
+  
+}
+
+
+/****MAIL******/
+
+.mail-icon a{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+ i.fa-regular {
+font-size: 2em;
+}
+
+
+/****POSITION*****/
+.position-icon{
+    margin-left: 30px;
+}
+
+.position-icon a{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+i.fa-solid{
+    font-size: 1.8em;
+}
+
+/*****TELEPHONE*****/
+
+.tel-icon{
+    margin-left: -5px ;
+}
+
+.tel-icon a{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+
+
+
+/*****IVA-ICON*****/
+.iva-icon {
+    display: flex;
+    gap: 36px;
+    margin-left: 13px;
+    justify-content: center;
+   
+}
+
+.iva-icon li{
+    margin-top: 8px;
+}
+ 
+ /*******IMG*****/
+    .img-contact img {
+        max-width: 80%;
+border-radius: 70%;
+object-fit: cover;
+    }
+
+    .img-contact {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+    /*********CONTACT********/
+
+    #contact {
+        height: 80vh;
+    }
+
+.content-contact{
+display: flex;
+
+}
+
+
+.info ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.info{
+    padding: 30px 10px 10px 20px;
+}
+
+
+    .title-contact h2 {
+        font-size: var(--title-sizeD);
+        padding: 90px 10px 10px 30px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+/****MAIL******/
+.icon a{
+    display: flex;
+    gap: 20px;
+}
+
+ i.fa-regular {
+font-size: 2.2em;
+}
+
+
+/****POSITION*****/
+.icon a{
+    display: flex;
+    gap: 30px;
+}
+
+i.fa-solid{
+    font-size: 2.2em;
+}
+
+/*****TELEPHONE*****/
+
+.icon a{
+    display: flex;
+    gap: 25px;
+}
+
+
+
+/*****IVA-ICON*****/
+.icon{
+    display: flex;
+    gap: 36px;
+    margin-left: 13px;
+   
+}
+
+.icon li{
+    margin-top: 8px;
+}
+ 
+
+    .img-contact img {
+        max-width: 70%;
+border-radius: 70%;
+object-fit: cover;
+    }
+
+    .img-contact {
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,170 @@
+
+@media screen and (max-width: 767px) {
+
+    /***************SECOND-QUOTE************/
+
+    .content-second-quote {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .pSection4 p {
+        text-align: center;
+        font-size: var(--p-sizeM);
+        padding: 20px 45px 50px 45px;
+
+    }
+
+
+    /*IMG-CHILDREN-SECOND-QUOTE*/
+
+
+    #second-quote {
+        height: 80vh;
+    }
+
+
+    .p-second-quote p {
+        padding: 20px 40px 0 40px;
+        text-align: start;
+        font-size: var(--p-sizeM);
+    }
+
+
+    .p-author-quote p {
+        padding: 20px 40px 0 40px;
+        text-align: start;
+        font-size: 1.2em;
+    }
+
+
+
+    /******IMG*****/
+
+    .img-children-second-quote {
+        text-align: center;
+
+    }
+
+    .img-children-second-quote img {
+        width: 90%;
+        padding: 10px 25px 0 25px;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /***************SECOND-QUOTE************/
+
+
+
+#second-quote{
+    margin: 100px 0 100px 0;
+
+}
+
+
+    .content-second-quote {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .p-second-quote p {
+        padding: 20px 60px 0 60px;
+        text-align: start;
+        font-size: var(--p-sizeT);
+    }
+
+
+
+
+    /******IMG*****/
+
+    .img-children-second-quote {
+        text-align: center;
+margin-top: 100px;
+    }
+
+    .img-children-second-quote img {
+        width: 90%;
+        padding: 10px 25px 0 25px;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+    /************SECOND-QUOTE*************/
+
+    #second-quote {
+        height: 100vh;
+    }
+
+
+
+    .content-second-quote {
+
+        margin: 0 50px;
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+
+    .content-second-quote h2,
+    p {
+        color: var(--text-color1);
+    }
+
+
+
+    .p-second-quote {
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 30px;
+        max-width: 100%;
+
+    }
+
+    .p-second-quote p {
+        font-size: var(--p-sizeD);
+        padding: 20px 10px 10px 30px;
+        text-align: start;
+
+    }
+
+
+
+    /*IMG*/
+
+    .img-children-second-quote {
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 50px;
+        max-width: 50%;
+
+    }
+
+    .img-children-second-quote img {
+        max-width: 100%;
+        padding: 10px 10px 30px 30px;
+        margin-left: -130px;
+        margin-right: -70px;
+
+    }
+}

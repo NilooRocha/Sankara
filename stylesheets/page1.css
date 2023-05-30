@@ -1,0 +1,221 @@
+
+/*******************************MOBILE*********************************/
+
+
+@media screen and (max-width: 767px) {
+
+    /***********FIRST-QUOTE***********/
+    
+        .wrapper {
+            margin: 0 10px 0 10px;
+        }
+    
+    
+        /********OPEN-PAGE*********/
+    
+    
+        #open-page {
+            background-image: url(../images/foto-gazzelle.png);
+            
+            background-size: cover;
+            
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+    
+        }
+    
+    
+        /****LOGO****/
+        .logo img {
+            max-width: 50%;
+            border-radius: 55%;
+        }
+    
+        .logo {
+            text-align: center;
+        }
+    
+    
+    
+        /****CONTENT-OPEN-PAGE****/
+    
+        .content-open-page {
+            padding: 40px 0 0 20px;
+    
+        }
+    
+    
+        .title-open-page h1 {
+            font-size: var(--title-sizeM);
+            font-family: 'Shippori Mincho', serif;
+            text-align: center;
+        }
+    
+        .p-open-page {
+            text-align: center;
+        }
+    
+    
+        .p-open-page p {
+            font-size: var(--p-sizeM);
+        }
+    
+        .p-quote-author p {
+            font-size: 1em;
+        }
+    
+        /****FOOTER***/
+    
+    
+        .footer-open-page {
+            margin-top: 50px;
+            text-align: center;
+            font-size: .7em;
+        }
+    
+    
+    }
+
+/**************TABLET****************/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+    .wrapper {
+        margin: 0 50px 0 50px;
+    }
+
+
+    /********OPEN-PAGE*********/
+
+
+    #open-page {
+        background-image: url(../images/foto-gazzelle.png);
+        background-size: 100% 58vh;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+
+    /****LOGO****/
+    .logo img {
+        max-width: 20%;
+        border-radius: 55%;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+
+
+    /****CONTENT-OPEN-PAGE****/
+
+    .content-open-page {
+        padding: 40px 0 0 20px;
+
+    }
+
+
+
+    .title-open-page h1 {
+        font-size: var(--title-sizeT);
+        font-family: 'Shippori Mincho', serif;
+        text-align: center;
+    }
+
+    .p-open-page {
+        text-align: center;
+    }
+
+
+    .p-open-page p {
+        font-size: var(--p-sizeT);
+    }
+
+    .p-quote-author p {
+        font-size: 1em;
+    }
+
+    /****FOOTER***/
+
+
+    .footer-open-page {
+        margin-top: 50px;
+        text-align: center;
+        font-size: .7em;
+    }
+
+
+}
+
+
+/***********************DESKTOP******************************/
+
+
+
+@media screen and (min-width: 1024px) {
+
+    /********OPEN-PAGE*********/
+
+    #open-page {
+        background-image: url(../images/foto-gazzelle.png);
+        height: 110vh;
+
+    }
+
+
+    /****LOGO****/
+    .logo img {
+        max-width: 50%;
+        border-radius: 55%;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+
+
+    /****CONTENT-OPEN-PAGE****/
+
+    .content-open-page {
+        padding: 90px 0 0 20px;
+        max-width: 35%;
+
+    }
+
+    .title-open-page {
+        text-align: center;
+    }
+
+    .title-open-page h1 {
+        font-size: var(--title-sizeD);
+        font-family: 'Shippori Mincho', serif;
+    }
+
+    .p-open-page {
+        text-align: center;
+    }
+
+
+    .p-open-page p {
+        font-size: var(--p-sizeD);
+    }
+
+    .p-quote-author p {
+        font-size: 1.6em;
+    }
+
+    /****FOOTER***/
+
+    .footer-open-page {
+        margin-top: 300px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+
+}
