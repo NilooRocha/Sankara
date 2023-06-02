@@ -36,13 +36,28 @@ a{
     text-decoration: none;
 }
 
+
+/**PAGE1**/
 .footer-open-page p{
     font-weight: bold;
-
     font-family: 'Righteous', cursive;
     
 }
 
+/**PAGE6**/
+
+.title-catalog h2{
+color: black;
+}
+
+.p-catalog p{
+    color: black;
+}
+
+
+/**PAGE4**/
 .p-quote-main p {
     font-weight: bold;
 }
+
+
