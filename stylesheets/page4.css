@@ -9,7 +9,7 @@
     }
 
 
-    .pSection4 p {
+    .p-second-quote p {
         text-align: center;
         font-size: var(--p-sizeM);
         padding: 20px 45px 50px 45px;
@@ -25,7 +25,7 @@
     }
 
 
-    .p-second-quote p {
+    .p-quote p {
         padding: 20px 40px 0 40px;
         text-align: start;
         font-size: var(--p-sizeM);
@@ -35,7 +35,7 @@
     .p-author-quote p {
         padding: 20px 40px 0 40px;
         text-align: start;
-        font-size: 1.2em;
+        font-size: 2em;
     }
 
 
@@ -78,13 +78,15 @@
 
 
 
-    .p-second-quote p {
+    .p-quote p {
         padding: 20px 60px 0 60px;
         text-align: start;
         font-size: var(--p-sizeT);
     }
 
-
+.p-author-quote p{
+    font-size: 1em;
+}
 
 
     /******IMG*****/
@@ -141,13 +143,19 @@ margin-top: 100px;
 
     }
 
-    .p-second-quote p {
+    .p-quote-main p {
         font-size: var(--p-sizeD);
-        padding: 20px 10px 10px 30px;
+        padding: 10px 30px 10px 30px;
         text-align: start;
-
+        font-size: 2.6em;
+ 
     }
 
+    .p-author-quote p{
+        font-size: 2.2em;
+        padding: 10px 30px 10px 30px;
+        text-align: start;
+    }
 
 
     /*IMG*/
@@ -161,10 +169,10 @@ margin-top: 100px;
     }
 
     .img-children-second-quote img {
-        max-width: 100%;
+        max-width: 90%;
         padding: 10px 10px 30px 30px;
         margin-left: -130px;
-        margin-right: -70px;
+        margin-right: -100px;
 
     }
 }

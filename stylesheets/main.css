@@ -42,3 +42,7 @@ a{
     font-family: 'Righteous', cursive;
     
 }
+
+.p-quote-main p {
+    font-weight: bold;
+}
