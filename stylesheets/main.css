@@ -36,3 +36,9 @@ a{
     text-decoration: none;
 }
 
+.footer-open-page p{
+    font-weight: bold;
+
+    font-family: 'Righteous', cursive;
+    
+}

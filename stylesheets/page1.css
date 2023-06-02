@@ -192,7 +192,7 @@
     }
 
     .title-open-page h1 {
-        font-size: var(--title-sizeD);
+        font-size: 5.7em;
         font-family: 'Shippori Mincho', serif;
     }
 
@@ -202,7 +202,8 @@
 
 
     .p-open-page p {
-        font-size: var(--p-sizeD);
+        font-size: 2.2em;
+        font-style: italic;
     }
 
     .p-quote-author p {
@@ -212,145 +213,10 @@
     /****FOOTER***/
 
     .footer-open-page {
-        margin-top: 300px;
+        margin-top: 280px;
         text-align: center;
         font-size: 1.3em;
     }
 
 
 }
-
-
-@media screen and (min-width: 1280px){
-
-
-    /********OPEN-PAGE*********/
-
-    #open-page {
-        background-image: url(../images/foto-gazzelle.png);
-        height: 110vh;
-background-size: cover;
-    }
-
-
-    /****LOGO****/
-    .logo img {
-        max-width: 50%;
-        border-radius: 55%;
-    }
-
-    .logo {
-        text-align: center;
-    }
-
-
-
-    /****CONTENT-OPEN-PAGE****/
-
-    .content-open-page {
-        padding: 90px 0 0 20px;
-        max-width: 35%;
-
-    }
-
-    .title-open-page {
-        text-align: center;
-    }
-
-    .title-open-page h1 {
-        font-size: var(--title-sizeD);
-        font-family: 'Shippori Mincho', serif;
-    }
-
-    .p-open-page {
-        text-align: center;
-    }
-
-
-    .p-open-page p {
-        font-size: var(--p-sizeD);
-    }
-
-    .p-quote-author p {
-        font-size: 1.6em;
-    }
-
-    /****FOOTER***/
-
-    .footer-open-page {
-        margin-top: 300px;
-        text-align: center;
-        font-size: 1.3em;
-    }
-
-
-}
-
-
-
-@media screen and (width: 1590px) {
-
-
-
-    /********OPEN-PAGE*********/
-
-    #open-page {
-        background-image: url(../images/foto-gazzelle.png);
-        height: 110vh;
-background-size: cover;
-    }
-
-
-    /****LOGO****/
-    .logo img {
-        max-width: 50%;
-        border-radius: 55%;
-    }
-
-    .logo {
-        text-align: center;
-    }
-
-
-
-    /****CONTENT-OPEN-PAGE****/
-
-    .content-open-page {
-        padding: 90px 0 0 20px;
-        max-width: 35%;
-
-    }
-
-    .title-open-page {
-        text-align: center;
-    }
-
-    .title-open-page h1 {
-        font-size: var(--title-sizeD);
-        font-family: 'Shippori Mincho', serif;
-    }
-
-    .p-open-page {
-        text-align: center;
-    }
-
-
-    .p-open-page p {
-        font-size: var(--p-sizeD);
-    }
-
-    .p-quote-author p {
-        font-size: 4.6em;
-    }
-
-    /****FOOTER***/
-
-    .footer-open-page {
-        margin-top: 300px;
-        text-align: center;
-        font-size: 1.3em;
-    }
-
-}
-
-

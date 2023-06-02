@@ -19,14 +19,14 @@
         color: var(--text-color1);
     }
 
-    .titleSection2 h2 {
+    .title-first-quote h2 {
         font-size: var(--title-sizeM);
         margin: 0;
         padding: 50px 30px 25px 20px;
         text-align: center;
     }
 
-    .pSection2 p {
+    .p-first-quote p {
         font-size: 1.6em;
         padding: 20px 50px 70px 50px;
 
@@ -69,14 +69,14 @@
         color: var(--text-color1);
     }
 
-    .titleSection2 h2 {
+    .title-first-quote h2 {
         font-size: var(--title-sizeT);
         margin: 0;
         padding: 50px 30px 25px 20px;
         text-align: center;
     }
 
-    .pSection2 p {
+    .p-first-quote p {
         font-size: 1.6em;
         padding: 20px 70px 70px 70px;
         margin: 0 90px 0 90px;
@@ -112,10 +112,10 @@
 
     .content-thomas {
 
-        margin: 0 50px;
+        margin: 0 20px;
         display: flex;
         flex-direction: row;
-        max-width: 80%;
+        max-width: 100%;
     }
 
 
@@ -125,36 +125,35 @@
     }
 
 
-    .titleSection2 {
+    .title-first-quote {
         max-width: 100%;
-
+margin-right: 100px;
+display: flex;
     }
 
-    .titleSection2 h2 {
+    .title-first-quote h2 {
         font-size: var(--title-sizeD);
         padding: 90px 20px 10px 10px;
         text-align: end;
-        margin-right: 160px;
+      flex-direction: row;
+      flex-grow: 2;
+  
 
 
     }
 
 
-    .pSection2 {
-        margin-right: 20px;
-        margin-left: 10px;
-        margin-top: 30px;
+    .p-first-quote{
+        margin: 30px 20px 0 30px;
         max-width: 100%;
-
     }
 
-    .pSection2 p {
+    .p-first-quote p {
         font-size: var(--p-sizeD);
-        padding: 20px 10px 10px 10px;
+        padding: 20px 10px 10px 20px;
         text-align: start;
 
     }
-
 
 
     /*IMG-PORTRAIT*/
@@ -172,7 +171,7 @@
         margin-left: 20px;
         margin-bottom: 90px;
         margin-right: -60px;
-        margin-top: -80px;
+        margin-top: -50px;
 
     }
 }
