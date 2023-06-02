@@ -82,7 +82,7 @@
 
     #catalog {
         background-image: url(../images/catalog.jpg);
-        height: 90vh;
+        height: 150vh;
         background-size: cover;
     }
 
@@ -98,4 +98,122 @@ padding: 30px 50px 40px 50px;
 margin-right: 300px;
 color: #4f4f4fa7;
 }
+
+
+
+.covers{
+    display: flex;
+    flex-direction: row;
+   height: 50vh;
+ justify-content: space-around;
+
+}
+
+
+/****MUSA****/
+
+.cover-musa{
+     height: 80vh;
+      text-align: center;  
+      margin-left: 30px;
+}
+
+.img-musa{
+    max-width: 100%;
+    text-align: center;
+}
+
+
+.img-musa img{
+    max-width: 100%;
+    height: 38vh;
+  padding: 10px 10px 0 10px;
+}
+
+
+/****DISCORSI****/
+.cover-parole{
+    height: 80vh;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.img-parole{
+    max-width: 100%;
+    text-align: center;
+
+}
+
+.img-parole img{
+    max-width: 100%;
+    height: 38vh;
+    padding: 10px 10px 0 10px;
+}
+
+/****QUE-SE-VAYANBIS****/
+
+.cover-que-se-vayanbis{
+    height: 80vh;
+text-align: center;
+margin-left: 30px;
+
+}
+
+.img-que-se-vayanbis{
+  max-width: 100%;
+  text-align: center;
+margin: auto;
+margin-left: -10px;
+}
+
+.img-que-se-vayanbis img{
+    max-width: 100%;
+    height: 38vh;
+    padding: 10px 10px 0 10px;
+
+}
+
+
+/****IRAN****/
+
+.cover-iran{
+    height: 80vh;
+text-align: center;
+margin-left: 30px;
+}
+
+.img-iran{
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+.img-iran img{
+    max-width: 100%;
+    height: 38vh;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+}
+
+/****MARX****/
+
+.cover-marx{
+    height: 80vh;
+text-align: center;
+margin-left: 30px;
+}
+
+.img-marx{
+    max-width: 100%;
+    text-align: center;
+  
+}
+
+.img-marx img{
+    max-width: 100%;
+    height: 38vh;
+    padding: 10px 10px 0 10px;
+}
+
+
 }
