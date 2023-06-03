@@ -44,6 +44,24 @@ a{
     
 }
 
+
+
+/**PAGE4**/
+
+#second-quote{
+    background-image: url(../images/Sfondo.jpg);
+}
+
+.p-quote-main p{
+    color: var(--text-color1);  
+     font-weight: bold;
+}
+
+.p-author-quote p {
+color: var(--text-color1);
+}
+
+
 /**PAGE6**/
 
 .title-catalog h2{
@@ -53,11 +71,3 @@ color: black;
 .p-catalog p{
     color: black;
 }
-
-
-/**PAGE4**/
-.p-quote-main p {
-    font-weight: bold;
-}
-
-

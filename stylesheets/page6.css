@@ -167,10 +167,10 @@
     
 
 .p-catalog p{
-font-size: var(--p-sizeD);
+font-size: 2em;
 padding: 30px 50px 40px 50px;
-margin-right: 300px;
-color: #4f4f4fa7;
+margin-right: 600px;
+height: 60vh;
 }
 
 .covers{
