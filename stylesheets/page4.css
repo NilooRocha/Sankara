@@ -4,10 +4,6 @@
     /***************SECOND-QUOTE************/
 
 
-    #second-quote {
-        height: 120vh;
-  
-    }
 
     .content-second-quote {
         display: flex;
@@ -43,6 +39,7 @@
     .img-children-second-quote {
         text-align: center;
         margin-top: 150px;
+        margin-bottom: 30px;
     }
 
     .img-children-second-quote img {
@@ -59,40 +56,53 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
+
+
     /***************SECOND-QUOTE************/
 
 
 
-#second-quote{
-    margin: 100px 0 100px 0;
-
-}
+    #second-quote{
+        margin: 100px 0 100px 0;
+    }
 
 
     .content-second-quote {
         display: flex;
         flex-direction: column;
-      
+   
     }
 
+    .p-second-quote {
+         padding: 10px 70px 50px 70px;
+    }
 
-
-    .p-quote p {
-        padding: 20px 60px 0 60px;
+    .p-quote-main  p{
         text-align: start;
-        font-size: var(--p-sizeT);
+        font-size: 1.6em;
+       
     }
 
-.p-author-quote p{
-    font-size: 1em;
-}
+
+    .p-author-quote{
+        margin-top: 20px;
+    }
+
+    .p-author-quote p {
+        text-align: start;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        padding-bottom: 80px;
+       }
+
 
 
     /******IMG*****/
 
     .img-children-second-quote {
         text-align: center;
-margin-top: 150px;  
+        margin-top: 150px;
+        margin-bottom: 30px;
     }
 
     .img-children-second-quote img {
@@ -100,6 +110,7 @@ margin-top: 150px;
         padding: 10px 25px 0 25px;
 
     }
+
 
 }
 
