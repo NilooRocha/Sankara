@@ -218,11 +218,21 @@ object-fit: cover;
 
     #contact {
         height: 80vh;
+      
     }
 
 .content-contact{
-display: flex;
+  display: flex;  
+   justify-content: space-around;
+}
 
+.info{
+    display: flex;
+}
+
+
+.info a{
+    display: inline-block;
 }
 
 
@@ -230,10 +240,12 @@ display: flex;
     list-style: none;
     margin-bottom: 30px;
     font-size: 1.5em;
+ 
 }
 
 .info{
-    padding: 30px 10px 10px 20px;
+    padding: 30px 10px 10px 20px;  
+    
 }
 
 
@@ -246,7 +258,7 @@ display: flex;
 
 /****MAIL******/
 .icon a{
-    display: flex;
+   
     gap: 20px;
 }
 
@@ -257,7 +269,7 @@ font-size: 2.2em;
 
 /****POSITION*****/
 .icon a{
-    display: flex;
+   
     gap: 30px;
 }
 
@@ -268,7 +280,7 @@ i.fa-solid{
 /*****TELEPHONE*****/
 
 .icon a{
-    display: flex;
+   
     gap: 25px;
 }
 
@@ -276,7 +288,7 @@ i.fa-solid{
 
 /*****IVA-ICON*****/
 .icon{
-    display: flex;
+ 
     gap: 36px;
     margin-left: 13px;
    
