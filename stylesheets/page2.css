@@ -9,7 +9,7 @@
 
     .content-thomas {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
 
@@ -106,7 +106,8 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-
+justify-content:space-around;
+        align-items: center;
     }
 
 
@@ -116,6 +117,7 @@
         display: flex;
         flex-direction: row;
         max-width: 100%;
+        
     }
 
 
@@ -129,6 +131,8 @@
         max-width: 100%;
 margin-right: 100px;
 display: flex;
+justify-content: space-around;
+align-items: center;
     }
 
     .title-first-quote h2 {
@@ -137,10 +141,9 @@ display: flex;
         text-align: end;
       flex-direction: row;
       flex-grow: 2;
-  
-
 
     }
+
 
 
     .p-first-quote{
@@ -163,6 +166,9 @@ display: flex;
         margin-top: 30px;
         margin-right: 50px;
         max-width: 50%;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
     }
 
     #img-portrait img {
@@ -170,8 +176,8 @@ display: flex;
         padding: 10px 0 30px 30px;
         margin-left: 20px;
         margin-bottom: 90px;
-        margin-right: -60px;
-        margin-top: -50px;
+        margin-right: -10px;
+        margin-top: -30px;
 
     }
 }
