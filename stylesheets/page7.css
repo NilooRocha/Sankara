@@ -224,12 +224,31 @@ object-fit: cover;
 
     /*********CONTACT********/
 
+<<<<<<< HEAD
 
 #section{
     display: flex;
     justify-content: center;
 align-items: center;
+=======
+    #contact {
+        height: 80vh;
+      
+    }
 
+.content-contact{
+  display: flex;  
+   justify-content: space-around;
+}
+>>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
+
+.info{
+    display: flex;
+}
+
+
+.info a{
+    display: inline-block;
 }
 
 
@@ -251,11 +270,18 @@ align-items: center;
     line-height: 65px;
     padding-left: 50px;
     font-size: 1.5em;
+ 
 }
 
+<<<<<<< HEAD
 .contact-info i{
     margin-right: 20px;
     font-size: 1.6em;
+=======
+.info{
+    padding: 30px 10px 10px 20px;  
+    
+>>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
 }
 
 
@@ -268,10 +294,55 @@ align-items: center;
         margin-bottom: 80px;
     }
 
+<<<<<<< HEAD
     .img-contact{
         max-width: 100%;
         padding-left: 50px;
     }
+=======
+/****MAIL******/
+.icon a{
+   
+    gap: 20px;
+}
+
+ i.fa-regular {
+font-size: 2.2em;
+}
+
+
+/****POSITION*****/
+.icon a{
+   
+    gap: 30px;
+}
+
+i.fa-solid{
+    font-size: 2.2em;
+}
+
+/*****TELEPHONE*****/
+
+.icon a{
+   
+    gap: 25px;
+}
+
+
+
+/*****IVA-ICON*****/
+.icon{
+ 
+    gap: 36px;
+    margin-left: 13px;
+   
+}
+
+.icon li{
+    margin-top: 8px;
+}
+ 
+>>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
 
     .img-contact img {
        max-width: 90%;
