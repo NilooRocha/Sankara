@@ -3,82 +3,44 @@
 
     /*****CONTACT*****/
 
-    .title-contact h2 {
-        font-size: var(--title-sizeM);
-        text-align: center;
-        padding: 50px 25px 25px 25px;
-        margin-bottom: 0;
-        margin-top: 70px;
-    }
+
+#section{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
 
 
-
-.content-contact{
+.contact-section{
+    min-height: 100vh;
+width: 100%;
 display: column;
-
+justify-content: center;
+align-items: center;
 }
 
 
-.icon{
-   
-   width: 50%;
-   
+.img-contact, .contact-info{
+    flex: 1;
 }
 
-
-.info ul li{
-    list-style: none;
+.contact-info{
+    max-width: 600px;
+    line-height: 65px;
+   padding: 55px;
+    font-size: 1.1em;
+    margin-top: 90px;
     margin-bottom: 30px;
-    font-size: 1.3em;
 }
 
-.info{
-    padding: 30px 50px 10px 50px;
+.contact-info i{
+    margin-right: 10px;
+    font-size: 1.2em;
 }
 
-
-/****MAIL******/
-
-
-.mail-icon a{
-    display: flex;
-    gap: 20px;
-}
-
- i.fa-regular {
-font-size: 2em;
-}
-
-
-/****POSITION*****/
-.position-icon a{
-    display: flex;
-    gap: 30px;
-}
-
-i.fa-solid{
-    font-size: 1.8em;
-}
-
-/*****TELEPHONE*****/
-
-.tel-icon a{
-    display: flex;
-    gap: 25px;
-}
-
-
-
-/*****IVA-ICON*****/
-.iva-icon {
-    display: flex;
-    gap: 36px;
-    margin-left: 13px;
-   
-}
-
-.iva-icon li{
-    margin-top: 8px;
+.contact-info h2{
+    font-size: 2.4em;
+    margin-bottom: 20px;
 }
  
  /*******IMG*****/
@@ -94,109 +56,52 @@ object-fit: cover;
     }
 
 }
-
-
-
-
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-
-
     /*****CONTACT*****/
 
 
-#contact{
-    margin: 0 100px 0 100px;
+#section{
+    display: flex;
+    justify-content: center;
+align-items: center;
 }
 
 
-    .title-contact h2 {
-        font-size: var(--title-sizeT);
-        text-align: center;
-        padding: 50px 25px 25px 25px;
-        margin-bottom: 0;
-        margin-top: 70px;
-    }
-
-
-
-.content-contact{
+.contact-section{
+    min-height: 100vh;
+width: 100%;
 display: column;
-
+justify-content: center;
+align-items: center;
 }
 
 
-.info ul li{
-    list-style: none;
-    margin-bottom: 30px;
-    font-size: 1.3em;
+.img-contact, .contact-info{
+    flex: 1;
 }
 
-.info{
-    padding: 30px 50px 10px 50px;
-  
+.contact-info{
+    max-width: 800px;
+    line-height: 80px;
+    padding-left: 90px;
+    font-size: 1.5em;
+    padding: 100px;
 }
 
-
-/****MAIL******/
-
-.mail-icon a{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    
-}
-
- i.fa-regular {
-font-size: 2em;
+.contact-info i{
+    margin-right: 20px;
+    font-size: 1.5em;
 }
 
 
-/****POSITION*****/
-.position-icon{
-    margin-left: 30px;
-}
-
-.position-icon a{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-
-i.fa-solid{
-    font-size: 1.8em;
-}
-
-/*****TELEPHONE*****/
-
-.tel-icon{
-    margin-left: -5px ;
-}
-
-.tel-icon a{
-    display: flex;
-    gap: 22px;
-    justify-content: center;
-}
-
-
-
-/*****IVA-ICON*****/
-.iva-icon {
-    display: flex;
-    gap: 36px;
-    margin-left: 13px;
-    justify-content: center;
-   
-}
-
-.iva-icon li{
-    margin-top: 8px;
+.contact-info h2{
+    font-size: 2.3em;
+    margin-bottom: 40px;
 }
  
- /*******IMG*****/
     .img-contact img {
         max-width: 80%;
 border-radius: 70%;
@@ -207,7 +112,6 @@ object-fit: cover;
         text-align: center;
         margin-bottom: 30px;
     }
-
 
 }
 
@@ -224,16 +128,6 @@ object-fit: cover;
 align-items: center;
 }
 
-.info{
-    display: flex;
-}
-
-
-.info a{
-    display: inline-block;
-}
-
-
 .contact-section{
     min-height: 100vh;
 width: 100%;
@@ -241,7 +135,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
 
 .img-contact, .contact-info{
     flex: 1;
@@ -258,7 +151,7 @@ align-items: center;
 
 .contact-info i{
     margin-right: 20px;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 
@@ -275,54 +168,10 @@ align-items: center;
         padding-left: 50px;
     }
 
-/****MAIL******/
-.icon a{
-   
-    gap: 20px;
-}
-
- i.fa-regular {
-font-size: 2.2em;
-}
-
-
-/****POSITION*****/
-.icon a{
-   
-    gap: 30px;
-}
-
-i.fa-solid{
-    font-size: 2.2em;
-}
-
-/*****TELEPHONE*****/
-
-.icon a{
-   
-    gap: 25px;
-}
-
-
-
-/*****IVA-ICON*****/
-.icon{
- 
-    gap: 36px;
-    margin-left: 13px;
-   
-}
-
-.icon li{
-    margin-top: 8px;
-}
- 
-
-
     .img-contact img {
-       max-width: 90%;
-object-fit: cover;
-border-radius: 15px;
+       max-width: 100%;
+border-radius: 90%;
+
     }
 
 }
