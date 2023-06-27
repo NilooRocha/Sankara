@@ -212,35 +212,17 @@ object-fit: cover;
 }
 
 
-
-
-
-
-
-
-
 @media screen and (min-width: 1024px) {
 
 
     /*********CONTACT********/
 
-<<<<<<< HEAD
 
 #section{
     display: flex;
     justify-content: center;
 align-items: center;
-=======
-    #contact {
-        height: 80vh;
-      
-    }
-
-.content-contact{
-  display: flex;  
-   justify-content: space-around;
 }
->>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
 
 .info{
     display: flex;
@@ -273,18 +255,11 @@ align-items: center;
  
 }
 
-<<<<<<< HEAD
+
 .contact-info i{
     margin-right: 20px;
     font-size: 1.6em;
-=======
-.info{
-    padding: 30px 10px 10px 20px;  
-    
->>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
 }
-
-
 
 
     .title-contact h2 {
@@ -294,12 +269,12 @@ align-items: center;
         margin-bottom: 80px;
     }
 
-<<<<<<< HEAD
+
     .img-contact{
         max-width: 100%;
         padding-left: 50px;
     }
-=======
+
 /****MAIL******/
 .icon a{
    
@@ -342,14 +317,12 @@ i.fa-solid{
     margin-top: 8px;
 }
  
->>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
+
 
     .img-contact img {
        max-width: 90%;
 object-fit: cover;
 border-radius: 15px;
     }
-
-
 
 }

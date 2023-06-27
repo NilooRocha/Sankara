@@ -106,12 +106,8 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-<<<<<<< HEAD
+
 justify-content:space-around;
-=======
- justify-content: space-around;
->>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
-        align-items: center;
     }
 
 
@@ -121,11 +117,7 @@ justify-content:space-around;
         display: flex;
         flex-direction: row;
         max-width: 100%;
-<<<<<<< HEAD
-        
-=======
-       
->>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
+
     }
 
 
@@ -138,13 +130,11 @@ justify-content:space-around;
     .title-first-quote {
         max-width: 100%;
 margin-right: 100px;
-<<<<<<< HEAD
+
 display: flex;
 justify-content: space-around;
 align-items: center;
-=======
-/**display: flex;**/
->>>>>>> d13c4743ae20dc56165510f36e8de82bb6d8e461
+
     }
 
     .title-first-quote h2 {
