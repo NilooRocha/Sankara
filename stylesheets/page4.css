@@ -3,7 +3,9 @@
 
     /***************SECOND-QUOTE************/
 
-
+#second-quote{
+    min-height: 100vh;
+}
 
     .content-second-quote {
         display: flex;
@@ -28,7 +30,7 @@
 
     .p-author-quote p {
         text-align: start;
-        font-size: 1.2em;
+        font-size: 1em;
         text-transform: uppercase;
     }
 
@@ -38,7 +40,7 @@
 
     .img-children-second-quote {
         text-align: center;
-        margin-top: 150px;
+        margin-top: 90px;
         margin-bottom: 30px;
     }
 
@@ -63,6 +65,7 @@
 
 
     #second-quote{
+        min-height: 120vh;
         margin: 100px 0 100px 0;
     }
 
@@ -74,12 +77,13 @@
     }
 
     .p-second-quote {
-         padding: 10px 70px 50px 70px;
+         padding: 10px 80px 50px 80px;
     }
 
     .p-quote-main  p{
         text-align: start;
-        font-size: 1.6em;
+        font-size: 2.2em;
+       
        
     }
 
@@ -102,7 +106,7 @@
     .img-children-second-quote {
         text-align: center;
         margin-top: 150px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .img-children-second-quote img {
@@ -151,13 +155,14 @@
         padding: 10px 30px 10px 30px;
         text-align: start;
         font-size: 2.6em;
- 
+
     }
 
     .p-author-quote p{
-        font-size: 2.2em;
+        font-size: 1.5em;
         padding: 10px 30px 10px 30px;
         text-align: start;
+        text-transform: uppercase;
     }
 
 

@@ -1,8 +1,5 @@
 
-   
-   
-   
-   
+
 @media screen and (max-width: 767px) {
 
    
@@ -11,52 +8,50 @@
 
     /*CONTENT*/
 
+
+
     #who-are-we {
-        height: 150vh;
-    }
-
-
-    .content-who-are-we p,
-    h2 {
-        color: var(--text-color1);
-
+       
+                 min-height: 150vh;
     }
 
 
     .content-who-are-we {
-        display: flex;
-        flex-direction: column;
+padding: 60px 55px 60px 55px;
+      flex-direction: column-reverse;    
+      display: flex;
     }
 
 
-    .titleSection3 h2 {
-        font-size: var(--title-sizeM);
+    .content-who-are-we h2,
+    p {
         text-align: center;
-        padding: 50px 25px 25px 25px;
-        margin-bottom: 0;
+      
+    }
+
+    h2.title-who-are-we  {
+        font-size: 2.3em;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .p-who-are-we p {
+        font-size: 1.2em;
+       
+    
+    }
+
+    /*IMG-PORTRAIT*/
+    #img-children img {
+        width: 100%;
         margin-top: 70px;
     }
 
-    .content-who-are-we p {
-        text-align: start;
-        font-size: 1em;
-        padding: 20px 45px 50px 45px;
-
-    }
-
-
-    /*IMG-CHILDREN*/
-    .img-children img {
-        width: 90%;
-        padding: 10px 25px 0 25px;
-
-
-    }
-
-    .img-children {
+    #img-children {
         text-align: center;
-
+      
     }
+
 
 
 }
@@ -130,59 +125,42 @@
 
     /*CONTENT*/
 
-    #who-are-we {
-        height: 170vh;
-         margin: 0 70px;
-    }
 
-
-    .content-who-are-we {
+    #who-are-we{
         display: flex;
-        margin-top: 20px;
+        justify-content: center;
+    align-items: center;
     }
-
-
-    .titleSection3 {
-        max-width: 100%;
-
+    
+    .content-who-are-we{
+        min-height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+    
+    
+h2.title-who-are-we {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
 
-    .titleSection3 h2 {
-        font-size: 3.2em;
-        padding: 90px 20px 10px 10px;
-        text-align: end;
-        margin-right: 160px;
-
-
-    }
-
-
-    .pSection3 p {
+    .p-who-are-we{
+        max-width: 700px;
+     padding: 0 70px 50px 0;
         font-size: 1.5em;
-        text-align: start;
-        margin-top: 0;
-        padding: 20px 40px 10px 30px;
-
+    
     }
 
-    .pSection3 {
-        max-width: 50%;
+    #img-children img{
+        max-width: 80%;
+        margin-top: 40px;
     }
 
-
-    /*IMG-CHILDREN*/
-    .img-children img {
-        max-width: 100%;
-        margin-top: 10px;
-        padding: 20px 30px 50px 30px;
-
+    #img-children{
+        padding-left: 90px;
     }
-
-    .img-children {
-        text-align: center;
-
-    }
-
-
 
 }

@@ -6,37 +6,38 @@
 
 
 
-
     .content-why-sankara {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-top: 40px;
     }
 
 
-    .title-why-sankara h2 {
+    h2.title-why-sankara  {
         font-size: var(--title-sizeM);
-        text-align: center;
-        padding: 50px 25px 25px 25px;
-        margin-bottom: 0;
-        margin-top: 70px;
+       margin-bottom: 20px;
+    }
+
+    .p-why-sankara{
+        padding: 20px 45px 50px 45px;
     }
 
     .p-why-sankara p {
         text-align: start;
         font-size: .8em;
-        padding: 20px 45px 50px 45px;
+      
 
     }
 
 
     /*******IMG*****/
-    .img-city img {
+    #img-city img {
         width: 90%;
         padding: 10px 25px 0 25px;
 
     }
 
-    .img-city {
+    #img-city {
         text-align: center;
 
     }
@@ -60,7 +61,7 @@
 
     .content-why-sankara {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         
     }
 
@@ -82,13 +83,13 @@
 
 
     /*******IMG*****/
-    .img-city img {
+    #img-city img {
         width: 90%;
         padding: 10px 25px 0 25px;
 
     }
 
-    .img-city {
+    #img-city {
         text-align: center;
 
     }
@@ -103,53 +104,44 @@
     /**************WHY SANKARA**********/
 
 
-
-    .content-why-sankara {
+    #why-sankara{
         display: flex;
-        margin-top: 20px;
+        justify-content: center;
+    align-items: center;
+    }
+    
+    .content-why-sankara{
+        min-height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+h2.title-why-sankara {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+    .p-why-sankara{
+        max-width: 700px;
+     padding: 0 70px 50px 60px;
+        font-size: 1.1em;
+    
     }
 
-
-    .title-why-sankara {
+    #img-city img{
         max-width: 100%;
-
+        margin-top: 40px;
     }
 
-    .title-why-sankara h2 {
-        font-size: 3.2em;
-        padding: 90px 20px 10px 10px;
-        text-align: end;
-        margin-right: 160px;
-
-
+    #img-city{
+        padding-left: 80px;
     }
-
-
-    .p-why-sankara p {
-        font-size: 1em;
-        text-align: start;
-        margin-top: 0;
-        padding: 20px 40px 10px 30px;
-
-    }
-
-    .p-why-sankara {
-        max-width: 50%;
-    }
-
-
-    /*IMG-CHILDREN*/
-    .img-city img {
-        max-width: 80%;
-        margin-top: 30px;
-
-
-    }
-
-    .img-city {
-        text-align: center;
-        max-width: 50%;
-    }
-
 
 }
+
+
+

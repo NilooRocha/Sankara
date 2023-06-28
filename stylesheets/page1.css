@@ -116,7 +116,7 @@ transform: scale(1.1)
 
     #open-page {
         background-image: url(../images/foto-gazzelle.png);
-        background-size: 100% 58vh;
+        background-size: 100% 100vh;
         background-repeat: no-repeat;
         background-position: center;
 
@@ -125,7 +125,7 @@ transform: scale(1.1)
 
     /****LOGO****/
     .logo img {
-        max-width: 20%;
+        max-width: 22%;
         border-radius: 55%;
     }
 
@@ -176,7 +176,7 @@ transform: scale(1.1)
     border-color: white;
     background-color: rgba(255, 255, 255, 0.119);
     border-radius: 5%;
-    width: 38%;
+    width: 15%;
     height: 3.8vh;
     border: 1px solid white;
     cursor: pointer;
@@ -191,7 +191,7 @@ transform: scale(1.1)
 }
     
     #btn-contattaci:hover{
-        transform: translateY(-4px);
+        transform: translateY(-3px);
        
     }
 
@@ -199,9 +199,10 @@ transform: scale(1.1)
 
 
     .footer-open-page {
-        margin-top: 100px;
+        padding-top: 370px;
+        padding-bottom: 30px; 
         text-align: center;
-        font-size: .7em;
+        font-size: 1.1em;
     }
 
 
@@ -225,6 +226,7 @@ height: 110vh;
     .logo img {
         max-width: 50%;
         border-radius: 55%;
+        border: .5px solid rgba(115, 115, 115, 0.621);
     }
 
     .logo {
@@ -248,7 +250,11 @@ height: 110vh;
     .title-open-page h1 {
         font-size: 5.7em;
         font-family: 'Shippori Mincho', serif;
+        text-shadow: rgba(0, 0, 0, 0.69) 0 0 0.1em;
+       
     }
+
+
 
     .p-open-page {
         text-align: center;
@@ -256,12 +262,14 @@ height: 110vh;
 
 
     .p-open-page p {
-        font-size: 2.2em;
+        font-size: 2em;
         font-style: italic;
+        text-shadow: rgba(0, 0, 0, 0.809) 0 0 0.1em;
     }
 
     .p-quote-author p {
-        font-size: 1.6em;
+        font-size: 1.2em;
+        text-shadow: rgba(0, 0, 0, 0.777) 0 0 0.1em;
     }
 
 

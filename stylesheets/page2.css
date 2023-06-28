@@ -3,43 +3,43 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-       
+                 min-height: 90vh;
     }
 
 
     .content-thomas {
-        display: flex;
-        flex-direction: column;
+padding: 50px 40px 50px 40px;
+      flex-direction: column-reverse;    
+      display: flex;
     }
 
 
     .content-thomas h2,
     p {
         text-align: center;
-        color: var(--text-color1);
+      
     }
 
-    .title-first-quote h2 {
+    h2.title-first-quote  {
         font-size: var(--title-sizeM);
-        margin: 0;
-        padding: 50px 30px 25px 20px;
         text-align: center;
+        margin-bottom: 25px;
     }
 
     .p-first-quote p {
         font-size: 1.6em;
-        padding: 20px 50px 70px 50px;
-
+    
     }
 
     /*IMG-PORTRAIT*/
     #img-portrait img {
-        width: 80%;
-        padding: 20px 10px 20px 10px;
+        width: 95%;
+        margin-top: 40px;
     }
 
     #img-portrait {
         text-align: center;
+      
     }
 }
 
@@ -49,47 +49,46 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
 
-    /******FIRST-QUOTE******/
-
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-
+                 min-height: 130vh;
     }
 
 
     .content-thomas {
-        display: flex;
-        flex-direction: column-reverse;
+padding: 60px 70px 60px 70px;
+      flex-direction: column-reverse;    
+      display: flex;
     }
 
 
     .content-thomas h2,
     p {
         text-align: center;
-        color: var(--text-color1);
+      
     }
 
-    .title-first-quote h2 {
+    h2.title-first-quote  {
         font-size: var(--title-sizeT);
-        margin: 0;
-        padding: 50px 30px 25px 20px;
         text-align: center;
+        margin-bottom: 40px;
     }
 
     .p-first-quote p {
-        font-size: 1.6em;
-        padding: 20px 70px 70px 70px;
-        margin: 0 90px 0 90px;
+        font-size: 2.4em;
+        padding: 0 120px 0 120px;
+    
     }
 
     /*IMG-PORTRAIT*/
     #img-portrait img {
-        width: 80%;
-        padding: 20px 10px 20px 10px;
+        width: 85%;
+        margin-top: 70px;
     }
 
     #img-portrait {
         text-align: center;
+      
     }
 }
 
@@ -103,74 +102,46 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-
+  display: flex;
+        justify-content: center;
+    align-items: center;
     }
 
-
-    .content-thomas {
-
-        margin: 0 20px;
-        display: flex;
-        max-width: 100%;
-
+    .content-thomas{
+        min-height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
-
-
-    .content-thomas h2,
-    p {
-        color: var(--text-color1);
-    }
-
-
-    .title-first-quote {
-        max-width: 100%;
-margin-right: 100px;
-display: flex;
-
-    }
-
-    .title-first-quote h2 {
-        font-size: var(--title-sizeD);
-        padding: 90px 20px 10px 10px;
-        text-align: end;
-      
-    }
-
-
+    
+    
+h2.title-first-quote {
+    text-align: center;
+    font-size: 3.8em;
+    margin-bottom: 90px;
+}
 
     .p-first-quote{
-        margin: 30px 20px 0 30px;
-        max-width: 100%;
-    }
-
-    .p-first-quote p {
-        font-size: var(--p-sizeD);
-        padding: 20px 10px 10px 20px;
-        text-align: start;
-
-    }
-
-
-    /*IMG-PORTRAIT*/
-
-    #img-portrait {
-        text-align: center;
-        margin-top: 30px;
-        margin-right: 50px;
-        max-width: 50%;
-       
-    }
-
-    #img-portrait img {
-        max-width: 80%;
-        padding: 10px 0 30px 30px;
-        margin-left: 20px;
-        margin-bottom: 90px;
-        margin-right: -10px;
-        margin-top: -30px;
-
-
-
+        max-width: 1000px;
+  margin-left: -60px;
+  padding: 0 80px 0 40px;
         
     }
+
+    .p-first-quote p{
+        text-align: center;
+        font-size: 2.4em;
+    }
+
+    #img-portrait img{
+        max-width: 80%;
+        
+    }
+
+    #img-portrait{
+        padding-left: 80px;
+        max-width: 50%;
+    }
+
 }
