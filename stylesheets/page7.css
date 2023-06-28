@@ -56,6 +56,14 @@ object-fit: cover;
         margin-bottom: 30px;
     }
 
+
+/**LINE**/
+
+#line{
+    display: none;
+}
+
+
 }
 
 
@@ -114,6 +122,14 @@ object-fit: cover;
         text-align: center;
         margin-bottom: 30px;
     }
+
+
+
+/**LINE**/
+#line{
+    display: none;
+}
+
 
 }
 
@@ -174,5 +190,14 @@ align-items: center;
 border-radius: 90%;
 
     }
+
+
+/**LINE**/
+#line{
+    height: 600px;
+    border-right: 1px solid rgba(233, 233, 233, 0.355) ;
+    margin-left: 30px;
+}
+
 
 }
