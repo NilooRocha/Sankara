@@ -6,6 +6,11 @@
 
 
 
+    #why-sankara {
+       
+        min-height: 140vh;
+}
+
     .content-why-sankara {
         display: flex;
         flex-direction: column-reverse;
@@ -24,7 +29,7 @@
 
     .p-why-sankara p {
         text-align: start;
-        font-size: .8em;
+        font-size: .9em;
       
 
     }
@@ -121,14 +126,14 @@ text-align: center;
     
 h2.title-why-sankara {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
     .p-why-sankara{
         max-width: 700px;
-     padding: 0 70px 50px 60px;
-        font-size: 1.1em;
+     padding: 0 80px 50px 65px;
+        font-size: 1em;
     
     }
 
@@ -138,7 +143,8 @@ h2.title-why-sankara {
     }
 
     #img-city{
-        padding-left: 80px;
+        padding-left: 60px;
+      max-width: 100%;
     }
 
 }
