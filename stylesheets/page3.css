@@ -65,8 +65,6 @@ padding: 60px 55px 60px 55px;
 
     /*CONTENT*/
 
-
-
     #who-are-we {
        
         min-height: 170vh;
@@ -157,4 +155,14 @@ h2.title-who-are-we {
         max-width: 60%;
     }
 
+}
+
+/******MONITOR*******/
+
+h2.title-who-are-we{
+    font-size: 4.2em;
+}
+
+.p-who-are-we p{
+    font-size: 1.5em;
 }
