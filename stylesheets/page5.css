@@ -149,5 +149,29 @@ h2.title-why-sankara {
 
 }
 
+/******MONITOR********/
 
 
+#img-city img{
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+#img-city{
+    padding-left: 100px;
+  max-width: 90%;
+}
+
+
+.p-why-sankara {
+    max-width: 53%;
+ padding: 0 300px 50px -100px;
+  
+}
+.p-why-sankara p{
+    font-size: 1.3em;
+}
+
+h2.title-why-sankara{
+    font-size: 3.5em;
+}
