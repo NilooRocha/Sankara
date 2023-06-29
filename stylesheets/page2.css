@@ -143,3 +143,19 @@ h2.title-first-quote {
     }
 
 }
+
+
+/******MONITOR*******/
+
+.p-first-quote{
+    padding: 0 200px 0 30px;
+}
+
+
+.p-first-quote p{
+    font-size: 3em;
+}
+
+h2.title-first-quote{
+    font-size: 4.5em;
+}
