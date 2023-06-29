@@ -38,13 +38,13 @@
 
     /******IMG*****/
 
-    .img-children-second-quote {
+    #img-children-second-quote {
         text-align: center;
         margin-top: 90px;
         margin-bottom: 30px;
     }
 
-    .img-children-second-quote img {
+    #img-children-second-quote img {
         width: 90%;
         padding: 10px 25px 0 25px;
 
@@ -64,32 +64,96 @@
 
 
 
-    #second-quote{
-        min-height: 120vh;
-        margin: 100px 0 100px 0;
-    }
-
-
-    .content-second-quote {
-        display: flex;
-        flex-direction: column;
-   
-    }
-
-    .p-second-quote {
-         padding: 10px 80px 50px 80px;
-    }
-
-    .p-quote-main  p{
-        text-align: start;
-        font-size: 2.2em;
-       
-       
-    }
-
+       #second-quote {
+        min-height: 140vh;
+}
 
     .p-author-quote{
         margin-top: 20px;
+        
+    }
+
+    .p-author-quote p {
+        text-align: center;
+        font-size: 1em;
+        text-transform: uppercase;
+   
+        
+       }
+
+
+.content-second-quote {
+padding: 90px 47px 60px 47px;
+flex-direction: column;    
+display: flex;
+
+}
+
+
+.p-quote-main{
+    margin-top: 30px;
+ 
+}
+
+.p-quote-main p {
+font-size: 2em;
+text-align: center;
+padding: 0 70px 0 70px;
+}
+
+
+
+/*IMG-PORTRAIT*/
+#img-children-second-quote img {
+width: 88%;
+
+}
+
+#img-children-second-quote {
+text-align: center;
+
+}
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+
+    /************SECOND-QUOTE*************/
+
+
+    #second-quote{
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    }
+    
+    .content-second-quote{
+        min-height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    .p-second-quote, .p-author-quote{
+        max-width: 700px;
+     padding: 0 40px 0 0;
+ 
+
+    }   
+
+    .p-quote-main p{
+          font-size: 2em;
+    }
+   
+
+    .p-author-quote{
+        margin-top: 50px;
+        
     }
 
     .p-author-quote p {
@@ -99,88 +163,16 @@
         padding-bottom: 80px;
        }
 
+ 
 
-
-    /******IMG*****/
-
-    .img-children-second-quote {
-        text-align: center;
-        margin-top: 150px;
-        margin-bottom: 20px;
-    }
-
-    .img-children-second-quote img {
-        width: 90%;
-        padding: 10px 25px 0 25px;
-
-    }
-
-
-}
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-
-
-    /************SECOND-QUOTE*************/
-
-    #second-quote {
-        height: 100vh;
-    }
-
-
-
-    .content-second-quote {
-
-        margin: 0 50px;
-        display: flex;
-        flex-direction: row;
-        max-width: 100%;
-    }
-
-
-    .p-second-quote {
-        margin-right: 20px;
-        margin-left: 10px;
-        margin-top: 100px;
-        max-width: 100%;
-
-    }
-
-    .p-quote-main p {
-        font-size: var(--p-sizeD);
-        padding: 10px 30px 10px 30px;
-        text-align: start;
-        font-size: 2.6em;
-
-    }
-
-    .p-author-quote p{
-        font-size: 1.5em;
-        padding: 10px 30px 10px 30px;
-        text-align: start;
-        text-transform: uppercase;
-    }
-
-
-    /*IMG*/
-
-    .img-children-second-quote {
-        text-align: center;
-        margin-top: 120px;
-        margin-right: 50px;
-        max-width: 50%;
-
-    }
-
-    .img-children-second-quote img {
+    #img-children-second-quote img{
         max-width: 90%;
-        padding: 10px 10px 30px 30px;
-        margin-left: -130px;
-        margin-right: -100px;
-
+       
     }
+
+    #img-children-second-quote{
+        padding-left: 90px;
+        max-width: 60%;
+    }
+
 }
