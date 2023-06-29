@@ -3,40 +3,40 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-                 min-height: 90vh;
+        min-height: 90vh;
     }
 
 
     .content-thomas {
-padding: 50px 40px 50px 40px;
-      flex-direction: column-reverse;    
-      display: flex;
-    
+        padding: 50px 40px 50px 40px;
+        flex-direction: column-reverse;
+        display: flex;
+
     }
 
 
 
-    h2.title-first-quote  {
+    h2.title-first-quote {
         font-size: 2.8em;
-   text-align: center;
+        text-align: center;
         margin-bottom: 25px;
     }
 
     .p-first-quote p {
         font-size: 1.3em;
-    text-align: center;
+        text-align: center;
     }
 
     /*IMG-PORTRAIT*/
     #img-portrait img {
         width: 93%;
         margin-top: 50px;
-        
+
     }
 
     #img-portrait {
         text-align: center;
-      
+
     }
 }
 
@@ -48,24 +48,24 @@ padding: 50px 40px 50px 40px;
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-                 min-height: 130vh;
+        min-height: 130vh;
     }
 
 
     .content-thomas {
-padding: 60px 70px 60px 70px;
-      flex-direction: column-reverse;    
-      display: flex;
+        padding: 60px 70px 60px 70px;
+        flex-direction: column-reverse;
+        display: flex;
     }
 
 
     .content-thomas h2,
     p {
         text-align: center;
-      
+
     }
 
-    h2.title-first-quote  {
+    h2.title-first-quote {
         font-size: var(--title-sizeT);
         text-align: center;
         margin-bottom: 40px;
@@ -74,8 +74,8 @@ padding: 60px 70px 60px 70px;
     .p-first-quote p {
         font-size: 2.4em;
         padding: 0 100px 0 100px;
-    
-    
+
+
     }
 
     /*IMG-PORTRAIT*/
@@ -86,7 +86,7 @@ padding: 60px 70px 60px 70px;
 
     #img-portrait {
         text-align: center;
-      
+
     }
 }
 
@@ -100,44 +100,44 @@ padding: 60px 70px 60px 70px;
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-  display: flex;
+        display: flex;
         justify-content: center;
-    align-items: center;
+        align-items: center;
     }
 
-    .content-thomas{
+    .content-thomas {
         min-height: 120vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    
-    
-h2.title-first-quote {
-    text-align: center;
-    font-size: 3.5em;
-    margin-bottom: 50px;
-}
 
-    .p-first-quote{
+
+    h2.title-first-quote {
+        text-align: center;
+        font-size: 3.5em;
+        margin-bottom: 50px;
+    }
+
+    .p-first-quote {
         max-width: 1000px;
-  margin-left: -70px;
-  padding: 0 80px 0 60px;
-        
+        margin-left: -70px;
+        padding: 0 80px 0 60px;
+
     }
 
-    .p-first-quote p{
+    .p-first-quote p {
         text-align: center;
         font-size: 2.2em;
     }
 
-    #img-portrait img{
+    #img-portrait img {
         max-width: 80%;
-        
+
     }
 
-    #img-portrait{
+    #img-portrait {
         padding-left: 80px;
         max-width: 50%;
     }
@@ -147,15 +147,15 @@ h2.title-first-quote {
 
 /******MONITOR*******/
 
-.p-first-quote{
+.p-first-quote {
     padding: 0 200px 0 30px;
 }
 
 
-.p-first-quote p{
+.p-first-quote p {
     font-size: 3em;
 }
 
-h2.title-first-quote{
+h2.title-first-quote {
     font-size: 4.5em;
 }
