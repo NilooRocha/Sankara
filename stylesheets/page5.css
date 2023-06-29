@@ -62,12 +62,12 @@
 
     #why-sankara {
        
-        min-height: 150vh;
+        min-height: 180vh;
 }
 
 
 .content-why-sankara {
-padding: 60px 55px 60px 55px;
+padding: 90px 55px 60px 55px;
 flex-direction: column-reverse;    
 display: flex;
 }
