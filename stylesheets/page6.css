@@ -6,7 +6,7 @@
     #catalog{
         background-image: url(../images/catalog.jpg);
         background-size: cover;
-       min-height: 120vh;
+       min-height: 150vh;
      
     }  
     
@@ -36,6 +36,16 @@
         }
     
 
+        ul.lista-libri {
+            margin-top: 50px;
+            padding-left: 10px;
+            
+            }
+            
+            ul.lista-libri li{
+               color: black;
+            font-size: .9em; 
+            }
   
 
         /****COVERS***/
@@ -139,6 +149,17 @@
         }
     
 
+ul.lista-libri {
+    margin-top: 50px;
+    padding-left: 10px;
+    
+    }
+    
+    ul.lista-libri li{
+       color: black;
+    font-size: 1.2em; 
+    }
+
         /****COVERS***/
     
 .covers{
@@ -238,6 +259,20 @@ max-width: 60%;
 margin-top: 20px;
 }
 
+
+ul.lista-libri {
+margin-top: 50px;
+padding-left: 10px;
+
+}
+
+ul.lista-libri li{
+   color: black;
+font-size: 1.2em; 
+}
+
+
+  /****COVERS***/
 .covers{
     display: flex;
     flex-direction: row;
