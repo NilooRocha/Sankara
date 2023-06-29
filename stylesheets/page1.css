@@ -349,14 +349,24 @@ transform: scale(1.2)
 
 }
 
+/******MONITOR*****/
+
+#open-page{
+    background-image: url(../images/foto-gazzelle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
+#btn-contattaci input{
+    width: 20%;
+}
 
 
-
-
-
-
+.footer-open-page {
+ margin-top: 290px;
+}
 
 
 
