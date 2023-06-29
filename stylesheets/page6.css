@@ -6,35 +6,37 @@
     #catalog{
         background-image: url(../images/catalog.jpg);
         background-size: cover;
+       min-height: 120vh;
      
     }  
     
         .content-catalog {
             display: flex;
             flex-direction: column;
-         
+            padding: 50px 0 40px 50px;  
+            max-width: 90%;
         }
-
-    
-.title-catalog{
-    padding: 20px 45px 20px 45px;
-}
 
 
         .title-libri h2 {
-            font-size: var(--title-sizeM);
-             text-align: start;
+            font-size: 1.8em;
            
         }
 
+        .title-text h2{
+            font-size: 1.9em;
+            margin-top: -15px;
+        }
     
         .p-catalog p {
-            text-align: start;
-            font-size: var(--p-sizeM);
-            padding: 20px 45px 50px 45px;
+           text-align: start;
+            font-size: 1.2em;
+         margin-top: 20px;
     
         }
     
+
+  
 
         /****COVERS***/
     
@@ -92,14 +94,6 @@
        
     }
 
-
-
-
-
-
-
-
-
     
 }
 
@@ -109,41 +103,38 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-
-    /*****CATALOG*****/
-
-
     /*****CATALOG*****/
 
     #catalog{
         background-image: url(../images/catalog.jpg);
         background-size: cover;
+       min-height: 120vh;
      
     }  
     
         .content-catalog {
             display: flex;
             flex-direction: column;
-         
+            padding: 50px 0 40px 70px;  
+            max-width: 70%;
         }
-
-    
-.title-catalog{
-    padding: 20px 45px 20px 45px;
-}
 
 
         .title-libri h2 {
-            font-size: var(--title-sizeM);
-             text-align: start;
+            font-size: 1.9em;
            
         }
 
+
+        .title-text h2{
+            font-size: 2.1em;
+            margin-top: -15px;
+        }
     
         .p-catalog p {
-            text-align: start;
+           text-align: start;
             font-size: var(--p-sizeM);
-            padding: 20px 45px 50px 45px;
+         margin-top: 20px;
     
         }
     
@@ -218,31 +209,33 @@
 
     #catalog {
         background-image: url(../images/catalog.jpg);
-        height: 150vh;
+        min-height: 150vh;
         background-size: cover;
+
     }
 
    
-    .title-catalog{
-        padding: 20px 45px 20px 45px;
-    }
     
             .title-libri h2 {
-                font-size: var(--title-sizeD);
-                 text-align: start;
+                font-size: 3.1em;
+             margin-bottom: -15px;   
                
             }
 
             .title-text h2{
-                font-size: 2.5em;
+                font-size: 3.2em;
             }
     
 
+.content-catalog{
+  padding: 50px 0 40px 70px;
+}
+
+
 .p-catalog p{
 font-size: 2em;
-padding: 30px 50px 40px 50px;
-margin-right: 600px;
-height: 60vh;
+max-width: 60%;
+margin-top: 20px;
 }
 
 .covers{
