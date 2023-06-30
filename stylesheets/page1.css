@@ -246,7 +246,7 @@ transform: scale(1.1)
 
     #open-page {
         background-image: url(../images/foto-gazzelle.png);
-height: 110vh;
+height: 115vh;
     }
 
     /****LOGO****/
@@ -358,14 +358,13 @@ transform: scale(1.2)
     background-position: center;
 }
 
-
 #btn-contattaci input{
     width: 20%;
 }
 
 
 .footer-open-page {
- margin-top: 290px;
+ margin-top: 200px;
 }
 
 
