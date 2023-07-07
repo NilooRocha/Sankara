@@ -22,6 +22,10 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/b85d77f27c.js" crossorigin="anonymous"></script>
 
+    <!--SWIPER CSS-->
+    <link rel="stylesheet" href="stylesheets/swiper.css">
+
+
     <title>Sankara</title>
 </head>
 
@@ -182,9 +186,10 @@
     <section id="catalog">
         <div class="content-catalog">
             <div class="title-catalog">
+                <!--
                 <div class="title-libri">
                     <h2>Libri</h2>
-                </div>
+                </div>-->
                 <div class="title-text">
                     <h2>Il nostro catalogo</h2>
                 </div>
@@ -200,104 +205,168 @@
                 </p>
             </div>
 
-            <ul class="lista-libri">
-                <li>Juan Evo Morales Ayma-"Discorsi per un futuro"</li>
-                <li> Pierangelo Francia-"A scuola nel’77 – complici o spettatori"</li>
-                <li>Thomas Sankara-"le parole di un vero rivoluzionario"</li>
-                <li> Marinella Correggia "El Presidente de la paz"</li>
-                <li>
-                    Giuseppe Sacco "Batman & Joker Volti e maschere dell'America"</li>
-                <li>Marco Managò "La Musa del Terrore- Origini, sviluppi, strategie e processi dell'allarmismo reale e
-                    indotto"</li>
-                <li>
-                    Claudia Fanti - "EL SALVADOR IL VANGELO SECONDO GLI INSORTI -</li>
-                <li>
-                    Mons. Romero e i movimenti popolari rivoluzionari"</li>
-                <li>Amici di Tolstoi - "TOLSTOJ E MARX. Oltre il marxismo verso la nonviolenza"</li>
-                <li>Lev N. Tolstoj - "SCRITTI POLITICI. Per la liberazione non violenta dei popoli"</li>
-                <li> THOMAS SANKARA - "I discorsi e le idee"</li>
-                <li>Emanuele Castelli - "IRAN. La Persia, la rivoluzione e l'Asse del Male"</li>
-                <li>Giuseppe Sacco - "QUE SE VAJAN! L'America Latina contesa"</li>
-                <li>Meas Nee - "AL DI LÀ DEL CIELO. La forza di un ragazzo nel dramma cambogiano</li>
-                <li> François Chesnais - "Tobin or not Tobin? Una tassa internazionale sul capitale"</li>
-                <li>Libera Pota - "MUSUNGU. Ero una bianca nell'Africa nera"</li>
-            </ul>
-
 
         </div>
 
-    </section>
-    <!--
+    <!--CATALOG SLIDER-->
 
-        <div class="covers">
-
-
-            <div class="cover-musa">
-                <div class="img-musa">
-                    <img src="./images/covers/musa.jpg" alt="">
+    <section class="product"> 
+        
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                 
+                    <img src="images/covers/musa.jpg" class="product-thumb" alt="">
+                   
                 </div>
-                <div class="p-musa">
-                    <p>La MU.S.A del terrore</p>
-                    <p>2023</p>
-                    <p>Marco Managò</p>
-                </div>
-            </div>
-
-
-
-            <div class="cover-parole">
-                <div class="img-parole">
-                    <img src="./images/covers/discorsi.jpg" alt="">
-                </div>
-                <div class="p-parole">
-                    <p>Le parole di un grande rivoluzionario</p>
-                    <p>xx</p>
-                    <p>Thomas Sankara</p>
+                <div class="product-info">
+                    <h2 class="product-brand">La MU.S.A del terrore</h2>
+                    <p class="product-short-description">Marco Managò <br>2011</p>
+                   
                 </div>
             </div>
-
+            <div class="product-card">
+                <div class="product-image">
+                  
+                    <img src="images/covers/marx.jpg" class="product-thumb" alt="">
+                    
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">TOLSTOJ E MARX</h2>
+                    <p class="product-short-description">Amici di Tolstoj <br> 2006</p>
+                    
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                   
+                    <img src="images/covers/iran.jpg" class="product-thumb" alt="">
+                  
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">IRAN</h2>
+                    <p class="product-short-description">Emanuele Castelli <br> 2003</p>
+                   
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+               
+                    <img src="images/covers/que-se-vayanbis.JPG" class="product-thumb" alt="">
+                    
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">QUE SE VAJAN!</h2>
+                    <p class="product-short-description">Giuseppe Sacco <br> 2002</p>
+                    
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                  
+                    <img src="images/covers/salvador.jpg" class="product-thumb" alt="">
+                  
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">EL SALVADOR IL VANGELO SECONDO GLI INSORTI</h2>
+                    <p class="product-short-description">Claudia Fanti <br> 2007</p>
+                   
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
            
-            <div class="cover-que-se-vayanbis">
-                <div class="img-que-se-vayanbis">
-                    <img src="./images/covers/que-se-vayanbis.JPG" alt="">
+                    <img src="images/covers/scuola.jpg" class="product-thumb" alt="">
+                    
                 </div>
-                <div class="p-que-se-vayanbis">
-                    <p>Que se vayanbis</p>
-                    <p>2018</p>
-                    <p>xxxx</p>
+                <div class="product-info">
+                    <h2 class="product-brand">A scuola nel’77</h2>
+                    <p class="product-short-description">Pierangelo Francia <br> 2018</p>
+                   
                 </div>
-
             </div>
-
-
-            <div class="cover-iran">
-                <div class="img-iran">
-                    <img src="./images/covers/iran.jpg" alt="">
+            <div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="images/covers/tobin.jpg" class="product-thumb" alt="">
+                
                 </div>
-                <div class="p-iran">
-                    <p>Iran</p>
-                    <p>xxx</p>
-                    <p>xxxx</p>
+                <div class="product-info">
+                    <h2 class="product-brand">Tobin or not Tobin?</h2>
+                    <p class="product-short-description">François Chesnais <br> 2001</p>
+                  
                 </div>
-
             </div>
-
-
-            <div class=" cover-marx">
-                <div class="img-marx">
-                    <img src="./images/covers/marx.jpg" alt="">
-                    <div class="p-marx">
-                        <p>Iran</p>
-                        <p>xxx</p>
-                        <p>xxxx</p>
-                    </div>
+            <div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="images/covers/evo.jpeg" class="product-thumb" alt="">
+                
                 </div>
-
+                <div class="product-info">
+                    <h2 class="product-brand">Discorsi per un futuro</h2>
+                    <p class="product-short-description">Evo Morales <br> 2019</p>
+                  
+                </div>
             </div>
--->
+            <div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="images/covers/presidente.jpg" class="product-thumb" alt="">
+                
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">El Presidente de la paz</h2>
+                    <p class="product-short-description">Marinella Correggia <br> 2015</p>
+                  
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="images/covers/Scritti politici COP (alta).jpg" class="product-thumb" alt="">
+                
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Scritti politici</h2>
+                    <p class="product-short-description">Lev N. Tolstoj <br> 2005</p>
+                  
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="images/covers/discorsi.jpg" class="product-thumb" alt="">
+                
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">I discorsi e le idee</h2>
+                    <p class="product-short-description">Thomas Sankara <br> 2006</p>
+                  
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="images/covers/batman.jpg" class="product-thumb" alt="">
+                
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Batman & Joker Volti e maschere dell'America</h2>
+                    <p class="product-short-description">Giuseppe Sacco <br> 2012</p>
+                  
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
 
 
-
+    </section>
+    
     <!--Contact-->
     <div class-="wrapper">
 
@@ -321,10 +390,13 @@
         </section>
     </div>
 
-  
+
 
 
 
 </body>
+
+<!--JS-->
+<script src="JS/script.js"></script>
 
 </html>
