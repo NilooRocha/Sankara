@@ -1,110 +1,210 @@
-
 @media screen and (max-width: 767px) {
 
     /*****CATALOG*****/
 
-    #catalog{
+    #catalog {
         background-image: url(../images/catalog.jpg);
         background-size: cover;
-       min-height: 150vh;
-     
-    }  
-    
-        .content-catalog {
-            display: flex;
-            flex-direction: column;
-            padding: 50px 0 40px 50px;  
-            max-width: 90%;
-        }
+        min-height: 90vh;
+
+    }
+
+    .content-catalog {
+        display: flex;
+        flex-direction: column;
+        padding: 60px 150px 90px 40px;
+        max-width: 90%;
+    }
 
 
-        .title-libri h2 {
-            font-size: 1.8em;
-           
-        }
+    .title-libri h2 {
+        font-size: 1.8em;
 
-        .title-text h2{
-            font-size: 1.9em;
-            margin-top: -15px;
-        }
-    
-        .p-catalog p {
-           text-align: start;
-            font-size: 1.2em;
-         margin-top: 20px;
-    
-        }
-    
+    }
 
-        ul.lista-libri {
-            margin-top: 50px;
-            padding-left: 10px;
-            
-            }
-            
-            ul.lista-libri li{
-               color: black;
-            font-size: .9em; 
-            }
-  
+    .title-text h2 {
+        font-size: 1.9em;
+        margin-top: -15px;
+    }
 
-        /****COVERS***/
-    
-.covers{
-    display: flex;
-    flex-direction: row;
-   height: 50vh;
- justify-content: space-around;
+    .p-catalog p {
+        text-align: start;
+        font-size: 1.2em;
+        margin-top: 20px;
 
-}
+    }
 
-/****MUSA****/
 
-        .cover-musa{
-            height: 60vh;
-             text-align: center;  
+    ul.lista-libri {
+        margin-top: 50px;
+        padding-left: 10px;
+
+    }
+
+    ul.lista-libri li {
+        color: black;
+        font-size: .9em;
+    }
+
+
+    /****COVERS***/
+
+    .product {
+        background-color: rgba(176, 143, 91, 0.47);
+        position: relative;
+        overflow: hidden;
+height: 55vh;
+
+    }
+
+
+    .product-category {
+        padding: 0 10vw;
+        font-size: 30px;
+        font-weight: 500;
+        
+        text-transform: capitalize;
+    }
+
+    .product-container {
+        padding: 0 8vw;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        margin-top: 60px;
+        max-width: 86%;
          
-       }
-       
-       .img-musa{
-          /** max-width: 100%;**/
-           text-align: center;
-           flex-basis: 50%;
-           margin-right: -25px;
-       }
-       
-       
-       .img-musa img{
-           max-width: 100%;
-           height: 35vh;
-         padding: 10px 0 0 10px;
-       
-       }
-       
+    }
 
-       /****PAROLE***/
+    .product-container::-webkit-scrollbar {
+        display: none;
+    }
 
-       .cover-parole{
-        height: 60vh;
-        text-align: center;
+    .product-card {
+        flex: 0 0 auto;
+        width: 250px;
+        height: 450px;
+        margin-right: 40px;
+           
+    }
+
+    .product-image {
+        position: relative;
+        width: 78%;
+        height: 280px;
+        overflow: hidden;
+        border-radius: 3%;
+
+    }
+
+
+    .product-thumb {
+        width: 92%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 3%;
+    }
+
+
+    .product-card:hover .card-btn {
+        opacity: 1;
+    }
+
+
+    .product-info {
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
         
     }
-    
-    .img-parole{
-        /**max-width: 100%;**/
-        text-align: center;
-      flex-basis: 50%;
-      margin-left: 20px;
-    }
-    
-    .img-parole img{
-        max-width: 100%;
-        height: 35vh;
-        padding: 10px 0 0 10px;
-       
+
+    .product-brand {
+        text-transform: uppercase;
+        font-size: 1em;
+        
     }
 
-    
+    .product-short-description {
+        width: 100%;
+        height: 40px;
+        line-height: 20px;
+        overflow: hidden;
+        opacity: 0.5;
+        text-transform: capitalize;
+        margin: 5px 0;
+        text-align: start;
+    }
+
+
+
+
+
+    .pre-btn,
+    .nxt-btn {
+        border: none;
+        width: 10vw;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0);
+        z-index: 8;
+    }
+
+    .pre-btn {
+        left: 0;
+        transform: rotate(180deg);
+    }
+
+    .nxt-btn {
+        right: 0;
+    }
+
+    .pre-btn img,
+    .nxt-btn img {
+        opacity: 0.2;
+    }
+
+    .pre-btn:hover img,
+    .nxt-btn:hover img {
+        opacity: 1;
+    }
+
+    .collection-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .collection {
+        position: relative;
+    }
+
+    .collection img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .collection p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+        text-transform: capitalize;
+    }
+
+    .collection:nth-child(3) {
+        grid-column: span 2;
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -115,109 +215,210 @@
 
     /*****CATALOG*****/
 
-    #catalog{
+    #catalog {
         background-image: url(../images/catalog.jpg);
         background-size: cover;
-       min-height: 120vh;
-     
-    }  
-    
-        .content-catalog {
-            display: flex;
-            flex-direction: column;
-            padding: 50px 0 40px 70px;  
-            max-width: 70%;
-        }
+        min-height: 110vh;
 
-
-        .title-libri h2 {
-            font-size: 1.9em;
-           
-        }
-
-
-        .title-text h2{
-            font-size: 2.1em;
-            margin-top: -15px;
-        }
-    
-        .p-catalog p {
-           text-align: start;
-            font-size: var(--p-sizeM);
-         margin-top: 20px;
-    
-        }
-    
-
-ul.lista-libri {
-    margin-top: 50px;
-    padding-left: 10px;
-    
-    }
-    
-    ul.lista-libri li{
-       color: black;
-    font-size: 1.2em; 
     }
 
-        /****COVERS***/
-    
-.covers{
-    display: flex;
-    flex-direction: row;
-   height: 50vh;
- justify-content: space-around;
+    .content-catalog {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 0 90px 70px;
+        max-width: 70%;
+    }
 
-}
 
-/****MUSA****/
+    .title-libri h2 {
+        font-size: 1.9em;
 
-        .cover-musa{
-            height: 60vh;
-             text-align: center;  
-         
-       }
-       
-       .img-musa{
-          /** max-width: 100%;**/
-           text-align: center;
-           flex-basis: 50%;
-           margin-right: -25px;
-       }
-       
-       
-       .img-musa img{
-           max-width: 100%;
-           height: 35vh;
-         padding: 10px 0 0 10px;
-       
-       }
-       
+    }
 
-       /****PAROLE***/
 
-       .cover-parole{
-        height: 60vh;
-        text-align: center;
+    .title-text h2 {
+        font-size: 2.1em;
+        margin-top: -15px;
+    }
+
+    .p-catalog p {
+        text-align: start;
+        font-size: var(--p-sizeM);
+        margin-top: 20px;
+
+    }
+
+
+    ul.lista-libri {
+        margin-top: 50px;
+        padding-left: 10px;
+
+    }
+
+    ul.lista-libri li {
+        color: black;
+        font-size: 1.2em;
+    }
+
+    /****COVERS***/
+
+    .product {
+        background-color: rgba(176, 143, 91, 0.47);
+        position: relative;
+        overflow: hidden;
+min-height: 80vh;
+    }
+
+
+    .product-category {
+        padding: 0 10vw;
+        font-size: 30px;
+        font-weight: 500;
         
+        text-transform: capitalize;
     }
-    
-    .img-parole{
-        /**max-width: 100%;**/
+
+    .product-container {
+        padding: 0 8vw;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        margin-top: 150px;
+    }
+
+    .product-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .product-card {
+        flex: 0 0 auto;
+        width: 250px;
+        height: 450px;
+        margin-right: 40px;
+    }
+
+
+    .product-image {
+        position: relative;
+        width: 100%;
+        height: 330px;
+        overflow: hidden;
+        border-radius: 3%;
+
+    }
+
+    .product-thumb {
+        width: 92%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 3%;
+    }
+
+
+    .product-card:hover .card-btn {
+        opacity: 1;
+    }
+
+
+    .product-info {
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    .product-brand {
+        text-transform: uppercase;
+        font-size: 1em;
+    }
+
+    .product-short-description {
+        width: 100%;
+        height: 40px;
+        line-height: 20px;
+        overflow: hidden;
+        opacity: 0.5;
+        text-transform: capitalize;
+        margin: 5px 0;
+        text-align: start;
+    }
+
+    .price {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .actual-price {
+        margin-left: 20px;
+        opacity: 0.5;
+        text-decoration: line-through;
+    }
+
+    .pre-btn,
+    .nxt-btn {
+        border: none;
+        width: 10vw;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0);
+        z-index: 8;
+    }
+
+    .pre-btn {
+        left: 0;
+        transform: rotate(180deg);
+    }
+
+    .nxt-btn {
+        right: 0;
+    }
+
+    .pre-btn img,
+    .nxt-btn img {
+        opacity: 0.2;
+    }
+
+    .pre-btn:hover img,
+    .nxt-btn:hover img {
+        opacity: 1;
+    }
+
+    .collection-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .collection {
+        position: relative;
+    }
+
+    .collection img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .collection p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
-      flex-basis: 50%;
-      margin-left: 20px;
-    }
-    
-    .img-parole img{
-        max-width: 100%;
-        height: 35vh;
-        padding: 10px 0 0 10px;
-       
+        color: #fff;
+        font-size: 50px;
+        text-transform: capitalize;
     }
 
-
-
+    .collection:nth-child(3) {
+        grid-column: span 2;
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -229,162 +430,205 @@ ul.lista-libri {
     /********CATALOG********/
 
     #catalog {
+      
         background-image: url(../images/catalog.jpg);
-        min-height: 150vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
         background-size: cover;
 
     }
 
-   
-    
-            .title-libri h2 {
-                font-size: 3.1em;
-             margin-bottom: -15px;   
-               
-            }
+    .content-catalog{
+        padding: 7vw 0 10vw 5vw;
+    }
 
-            .title-text h2{
-                font-size: 3.2em;
-            }
-    
+    .title-libri h2 {
+        font-size: 3.1em;
+        margin-bottom: -15px;
 
-.content-catalog{
-  padding: 50px 0 40px 70px;
-}
+    }
+
+    .title-text h2 {
+        font-size: 3.2em;
+    }
 
 
-.p-catalog p{
-font-size: 2em;
-max-width: 60%;
-margin-top: 20px;
-}
+
+    .p-catalog p {
+        font-size: 2em;
+        max-width: 70%;
+        margin-top: 20px;
+    }
 
 
-ul.lista-libri {
-margin-top: 50px;
-padding-left: 10px;
+    ul.lista-libri {
+        margin-top: 50px;
+        padding-left: 10px;
 
-}
+    }
 
-ul.lista-libri li{
-   color: black;
-font-size: 1.2em; 
-}
-
-
-  /****COVERS***/
-.covers{
-    display: flex;
-    flex-direction: row;
-   height: 50vh;
- justify-content: space-around;
-
-}
-
-/****MUSA****/
-
-.cover-musa{
-     height: 80vh;
-      text-align: center;  
-      margin-left: 30px;
-}
-
-.img-musa{
-    max-width: 100%;
-    text-align: center;
-}
+    ul.lista-libri li {
+        color: black;
+        font-size: 1.2em;
+    }
 
 
-.img-musa img{
-    max-width: 100%;
-    height: 38vh;
-  padding: 10px 10px 0 10px;
-}
+    /****COVERS***/
+
+    .product {
+        background-color: rgba(176, 143, 91, 0.47);
+        position: relative;
+        overflow: hidden;
+min-height: 80vh;
+    }
 
 
-/****PAROLE****/
-.cover-parole{
-    height: 80vh;
-    text-align: center;
-    
-}
+    .product-category {
+        padding: 0 10vw;
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
 
-.img-parole{
-    max-width: 100%;
-    text-align: center;
+    .product-container {
+        padding: 0 8vw;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        margin-top: 150px;
+    }
 
-}
+    .product-container::-webkit-scrollbar {
+        display: none;
+    }
 
-.img-parole img{
-    max-width: 100%;
-    height: 38vh;
-    padding: 10px 10px 0 10px;
-}
+    .product-card {
+        flex: 0 0 auto;
+        width: 250px;
+        height: 450px;
+        margin-right: 40px;
+    }
 
-/****QUE-SE-VAYANBIS****/
+    .product-image {
+        position: relative;
+        width: 100%;
+        height: 330px;
+        overflow: hidden;
+        border-radius: 3%;
 
-.cover-que-se-vayanbis{
-    height: 80vh;
-text-align: center;
+    }
 
-
-}
-
-.img-que-se-vayanbis{
-  max-width: 100%;
-  text-align: center;
-
-
-}
-
-.img-que-se-vayanbis img{
-    max-width: 100%;
-    height: 38vh;
-    padding: 10px 10px 0 10px;
-
-}
-
-
-/****IRAN****/
-
-.cover-iran{
-    height: 80vh;
-text-align: center;
-margin-left: 30px;
-}
-
-.img-iran{
-    max-width: 100%;
-    text-align: center;
-    
-}
-
-.img-iran img{
-    max-width: 100%;
-    height: 38vh;
-    text-align: center;
-    padding: 10px 10px 0 10px;
-}
-
-/****MARX****/
-
-.cover-marx{
-    height: 80vh;
-text-align: center;
-margin-left: 30px;
-}
-
-.img-marx{
-    max-width: 100%;
-    text-align: center;
-  
-}
-
-.img-marx img{
-    max-width: 100%;
-    height: 38vh;
-    padding: 10px 10px 0 10px;
-}
+    .product-thumb {
+        width: 92%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 3%;
+    }
 
 
+    .product-card:hover .card-btn {
+        opacity: 1;
+    }
+
+
+    .product-info {
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    .product-brand {
+        text-transform: uppercase;
+        font-size: 1em;
+    }
+
+    .product-short-description {
+        width: 100%;
+        height: 40px;
+        line-height: 20px;
+        overflow: hidden;
+        opacity: 0.5;
+        text-transform: capitalize;
+        margin: 5px 0;
+    }
+
+    .price {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .actual-price {
+        margin-left: 20px;
+        opacity: 0.5;
+        text-decoration: line-through;
+    }
+
+    .pre-btn,
+    .nxt-btn {
+        border: none;
+        width: 10vw;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0);
+        z-index: 8;
+    }
+
+    .pre-btn {
+        left: 0;
+        transform: rotate(180deg);
+    }
+
+    .nxt-btn {
+        right: 0;
+    }
+
+    .pre-btn img,
+    .nxt-btn img {
+        opacity: 0.2;
+    }
+
+    .pre-btn:hover img,
+    .nxt-btn:hover img {
+        opacity: 1;
+    }
+
+    .collection-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .collection {
+        position: relative;
+    }
+
+    .collection img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .collection p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+        text-transform: capitalize;
+    }
+
+    .collection:nth-child(3) {
+        grid-column: span 2;
+        margin-bottom: 10px;
+    }
 }
