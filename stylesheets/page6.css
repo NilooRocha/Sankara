@@ -12,7 +12,7 @@
     .content-catalog {
         display: flex;
         flex-direction: column;
-        padding: 60px 150px 90px 40px;
+        padding: 60px 30px 90px 40px;
         max-width: 90%;
     }
 
@@ -29,7 +29,7 @@
 
     .p-catalog p {
         text-align: start;
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin-top: 20px;
 
     }
@@ -53,7 +53,7 @@
         background-color: rgba(176, 143, 91, 0.47);
         position: relative;
         overflow: hidden;
-height: 55vh;
+min-height: 60vh;
 
     }
 
@@ -67,12 +67,12 @@ height: 55vh;
     }
 
     .product-container {
-        padding: 0 8vw;
+        padding: 0 10vw;
         display: flex;
         overflow-x: auto;
         scroll-behavior: smooth;
-        margin-top: 60px;
-        max-width: 86%;
+        margin-top: 150px;
+        max-width: 90%;
          
     }
 
@@ -91,7 +91,7 @@ height: 55vh;
     .product-image {
         position: relative;
         width: 78%;
-        height: 280px;
+        height: 250px;
         overflow: hidden;
         border-radius: 3%;
 
