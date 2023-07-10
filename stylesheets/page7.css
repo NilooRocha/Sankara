@@ -193,7 +193,7 @@ h2.title-contact{
     /*********CONTACT********/
 
 .contact{
-    min-height: 130vh;
+    min-height: 120vh;
     width: 100%;
     background-color: rgb(132, 123, 107);
     display: flex;
