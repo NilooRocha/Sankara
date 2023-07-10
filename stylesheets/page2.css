@@ -4,6 +4,7 @@
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
         min-height: 90vh;
+        color:  white;
     }
 
 
@@ -49,6 +50,7 @@
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
         min-height: 130vh;
+        color:  white;
     }
 
 
@@ -103,6 +105,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color:  white;
     }
 
     .content-thomas {
