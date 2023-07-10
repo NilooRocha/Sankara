@@ -20,7 +20,7 @@ h2.title-contact{
     text-align: center;
     font-size: 3.7em;
     text-shadow: none;
-    color:rgba(63, 56, 48, 0.729);
+    color:rgba(88, 68, 47, 0.729);
     margin-bottom: 50px;
     margin-top: 20px;
 
@@ -56,7 +56,7 @@ h2.title-contact{
     .contact-info .details i{
     font-size: 35px;
     margin-bottom: 10px;
-    color:rgba(110, 80, 47, 0.729)
+    color:rgba(88, 68, 47, 0.729)
     
     }
     
@@ -98,13 +98,14 @@ h2.title-contact{
     /*********CONTACT********/
 
     .contact{
-        min-height: 100vh;
+        min-height: 110vh;
         width: 100%;
-        background-color: rgb(132, 123, 107);
+        background-image:var(--gradient-contact);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-top: 50px;
      
     }
 
@@ -114,14 +115,14 @@ h2.title-contact{
     text-align: center;
     font-size: 3.5em;
     text-shadow: none;
-    color:rgba(63, 56, 48, 0.729);
+    color:rgba(88, 68, 47, 0.729);
     margin-bottom: 50px;
     margin-top: 20px;
 
 }
     
     .contact-container{
-        width: 90%;
+        width: 78%;
         background-color: rgb(255, 255, 255);
         border-radius: 6px;
         padding: 20px 60px 40px 40px;
@@ -152,7 +153,7 @@ h2.title-contact{
     .contact-info .details i{
     font-size: 35px;
     margin-bottom: 10px;
-    color:rgba(110, 80, 47, 0.729)
+    color:rgba(88, 68, 47, 0.729);
     
     }
     
@@ -195,7 +196,7 @@ h2.title-contact{
 .contact{
     min-height: 120vh;
     width: 100%;
-    background-color: rgb(132, 123, 107);
+    background-image:var(--gradient-contact);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -210,14 +211,14 @@ h2.title-contact{
     text-align: center;
     font-size: 4.4em;
     text-shadow: none;
-    color:rgba(63, 56, 48, 0.729);
+    color:rgba(88, 68, 47, 0.729);
     margin-bottom: 50px;
     margin-top: 20px;
 
 }
 
 .contact-container{
-    width: 78%;
+    width: 70%;
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
     padding: 20px 60px 40px 40px;
@@ -248,7 +249,7 @@ justify-content: center;
 .contact-info .details i{
 font-size: 35px;
 margin-bottom: 10px;
-color:rgba(110, 80, 47, 0.729)
+color:rgba(88, 68, 47, 0.729)
 
 }
 

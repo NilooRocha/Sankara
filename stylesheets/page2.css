@@ -3,13 +3,14 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-        min-height: 90vh;
+        min-height: 130vh;
         color:  white;
+        padding-top: 50px;
     }
 
 
     .content-thomas {
-        padding: 50px 40px 50px 40px;
+        padding: 50px 70px 50px 70px;
         flex-direction: column-reverse;
         display: flex;
 
@@ -30,7 +31,7 @@
 
     /*IMG-PORTRAIT*/
     #img-portrait img {
-        width: 93%;
+        width: 75%;
         margin-top: 50px;
 
     }
@@ -82,7 +83,7 @@
 
     /*IMG-PORTRAIT*/
     #img-portrait img {
-        width: 85%;
+        width: 70%;
         margin-top: 70px;
     }
 

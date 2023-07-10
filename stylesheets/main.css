@@ -6,6 +6,7 @@
    --body-color: #a35a06cc;
     --text-color1: white;
     --text-color2: #6A6A69;
+    --gradient-contact:linear-gradient(to right, rgb(173, 147, 114), rgb(131, 107, 88));
     /*TEXT-SIZES*/
     --title-sizeM: 2.2em;
     --title-sizeT: 3.9em;
@@ -71,7 +72,3 @@ color: black;
 .p-catalog p{
     color: black;
 }
-
-
-
-

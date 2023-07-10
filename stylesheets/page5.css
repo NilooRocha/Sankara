@@ -9,7 +9,7 @@
     #why-sankara {
        
         min-height: 140vh;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(240, 240, 240);
 }
 
     .content-why-sankara {
@@ -61,7 +61,7 @@
 
     #why-sankara {
         min-height: 180vh;
-        background-color: rgb(243, 243, 243);
+        background-color: rgb(240, 240, 240);
       
 }
 
@@ -115,7 +115,7 @@ text-align: center;
         display: flex;
         justify-content: center;
     align-items: center;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(240, 240, 240);
     }
     
     .content-why-sankara{

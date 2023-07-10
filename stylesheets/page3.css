@@ -12,12 +12,12 @@
 
     #who-are-we {
         min-height: 150vh;
-        background-color: rgb(233, 233, 233);
+        background-color: rgb(240, 240, 240);
     }
 
 
     .content-who-are-we {
-padding: 60px 55px 60px 55px;
+padding: 100px 55px 60px 55px;
       flex-direction: column-reverse;    
       display: flex;
       color: rgb(33, 33, 33);
@@ -31,7 +31,7 @@ padding: 60px 55px 60px 55px;
     }
 
     h2.title-who-are-we  {
-        font-size: 2.9em;
+        font-size: 3.3em;
         text-align: start;
         margin-bottom: 40px;
     }
@@ -71,13 +71,13 @@ padding: 60px 55px 60px 55px;
     #who-are-we {
        
         min-height: 170vh;
-        background-color: rgb(233, 233, 233);
+        background-color: rgb(240, 240, 240);
      
 }
 
 
 .content-who-are-we {
-padding: 60px 55px 60px 55px;
+padding: 100px 90px 60px 90px;
 flex-direction: column-reverse;    
 display: flex;
 color: rgb(33, 33, 33);
@@ -87,7 +87,7 @@ color: rgb(33, 33, 33);
 
 
 h2.title-who-are-we  {
-font-size: 3.5em;
+font-size: 3.9em;
 text-align: start;
 margin-bottom: 40px;
 }
@@ -102,7 +102,7 @@ text-align:start;
 /*IMG-PORTRAIT*/
 #img-children img {
 width: 80%;
-margin-top: 70px;
+margin-top: 100px;
 border-radius: 50%;
 }
 
@@ -128,7 +128,7 @@ text-align: center;
         justify-content: center;
     align-items: center;
     min-height: 120vh;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(240, 240, 240);
     }
     
     .content-who-are-we{
