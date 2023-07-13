@@ -8,7 +8,7 @@
 
 
     #open-page {
-        background-image: url(../images/foto-gazzelle.png);
+       
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -120,6 +120,31 @@ text-shadow: 0.1em 0.1em 0.1em rgba(148, 147, 147, 0.884);
 
     }
 
+/*****VIDEO******/
+
+#video{
+    padding: 80px 0 80px 0;
+   
+} 
+
+.video-background{
+    position: relative;
+    
+}
+
+.video-background video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#video video{
+width: 50%;
+z-index: -10;
+}
+
 
 }
 
@@ -137,12 +162,9 @@ text-shadow: 0.1em 0.1em 0.1em rgba(148, 147, 147, 0.884);
 
 
 #open-page {
-    background-image: url(../images/foto-gazzelle.png);
-    background-size: 100% 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
+  
     color:  white;
-
+min-width: 40vh;
 }
 
 
@@ -252,6 +274,32 @@ transform: scale(1.1)
 }
 
 
+/*****VIDEO******/
+
+#video{
+    padding: 80px 0 80px 0;
+   
+} 
+
+.video-background{
+    position: relative;
+    
+}
+
+.video-background video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+}
+
+
+#video video{
+width: 100%;
+z-index: -10;
+}
+
+
 
 }
 
@@ -264,15 +312,47 @@ transform: scale(1.1)
 
 /********OPEN-PAGE*********/
 
-#open-page {
-    background-image: url(../images/foto-gazzelle.png);
-height: 115vh;
-color:  white;
-}
+#open-page{
+    
+    width: 100%;
+    right: 0;
+    min-height: 100vh;
+    color:  white;
+   
+    }
+
+/*****VIDEO******/
+
+    
+    #open-page video{
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+        
+    }
+    
+    .content-open-page{
+        position: relative;
+        z-index: 10;
+        margin: 90px 0 0 -59px;
+        max-width: 47%;
+        min-width: 30%;
+        padding: 10px 20px 0 100px;
+        display: flex;
+        flex-direction: column;
+        min-height: 80vh;
+    }
+    
+
+
 
 /****LOGO****/
 .logo img {
-    max-width: 50%;
+    max-width: 65%;
     border-radius: 55%;
     border: .5px solid rgba(115, 115, 115, 0.621);
 }
@@ -282,6 +362,7 @@ color:  white;
     margin-bottom: -20px;   
 animation: logo-anim 1.6s ease-in forwards;
 opacity: 0;
+
 }
 
 
@@ -297,18 +378,13 @@ opacity: 1;
 
 /****CONTENT-OPEN-PAGE****/
 
-.content-open-page {
-    padding: 90px 0 0 20px;
-    max-width: 35%;
-
-}
 
 .title-open-page {
     text-align: center;
 }
 
 .title-open-page h1 {
-    font-size: 5.7em;
+    font-size: 6.3em;
     font-family: 'Shippori Mincho', serif;
     text-shadow: rgba(0, 0, 0, 0.69) 0 0 0.1em;
    
@@ -320,13 +396,13 @@ opacity: 1;
 
 
 .p-open-page p {
-    font-size: 1.9em;
+    font-size: 2.2em;
     font-style: italic;
     text-shadow: rgba(0, 0, 0, 0.855) 0 0 0.1em;
 }
 
 .p-quote-author p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-shadow: rgba(0, 0, 0, 0.922) 0 0 0.1em;
 }
 
@@ -335,20 +411,21 @@ opacity: 1;
 
 #btn-contattaci{
 text-align: center;
-margin-top: 20px;
+margin-top: 40px;
 }
 
 #btn-contattaci input{
 border-color: rgba(84, 84, 84, 0.617);
-padding: 3px 2px 3px 2px;
+padding: 7px 5px 8px 5px;
 background-color: rgba(167, 167, 167, 0.275);
-border-radius: 5%;
-width: 30%;
+border-radius: 50%;
+width: 28%;
+height: 50px;
 border: 1px solid rgb(190, 190, 190);
 cursor: pointer;
 transition: ease-in-out all 0.4s;
 font-weight:600;
-font-size: .8em;
+font-size: 1.2em;
 box-shadow: 0px 2px 3px rgba(72, 72, 72, 0.836);
 text-shadow: 0 0 0.1em rgb(5, 5, 5);
 color: rgba(255, 255, 255, 0.942);
@@ -358,6 +435,7 @@ color: rgba(255, 255, 255, 0.942);
 
 #btn-contattaci:active{
 transform: scale(1.2)
+ 
 }
 
 #btn-contattaci:hover{
@@ -367,22 +445,43 @@ transform: translateY(-4px);
 
 /****FOOTER***/
 
+
+.container-footer{
+   
+    z-index: 10;
+    position: relative;
+    flex-direction: column;
+ display: flex;
+    justify-content: flex-end;
+ align-items: center;
+ 
+}
+
+.content-footer p {
+   font-size: 1.2em;
+}
+
+
+/**
 .footer-open-page {
    margin-top: 150px;
     padding: 150px 50px 50px 50px;
     text-align: center;
     font-size: 1.3em;
    
-}
+}**/
+/**
 .footer-open-page p{
     text-shadow: 0.1em 0.1em 0.1em rgba(148, 147, 147, 0.884);
     color: rgba(255, 255, 255, 0.843);
-}
+}**/
+
+
 
 
 }
 
-/******MONITOR*****/
+/******MONITOR***
 
 #open-page{
 background-image: url(../images/foto-gazzelle.png);
@@ -399,8 +498,7 @@ width: 20%;
 .footer-open-page {
 margin-bottom: 1px;
 }
-
-
+**/
 
 
 

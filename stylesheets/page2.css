@@ -107,10 +107,12 @@
         justify-content: center;
         align-items: center;
         color:  white;
+         min-height: 120vh;
+         margin-top: -100px;
     }
 
     .content-thomas {
-        min-height: 120vh;
+       
         width: 100%;
         display: flex;
         justify-content: center;
