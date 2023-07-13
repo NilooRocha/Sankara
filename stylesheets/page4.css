@@ -4,7 +4,7 @@
     /***************SECOND-QUOTE************/
 
 #second-quote{
-    min-height: 110vh;
+    min-height: 120vh;
 }
 
     .content-second-quote {
@@ -18,7 +18,7 @@
     }
 
     .p-quote-main  p{
-        text-align: start;
+        text-align: center;
         font-size: 1.6em;
        
     }
@@ -29,8 +29,8 @@
     }
 
     .p-author-quote p {
-        text-align: start;
-        font-size: 1em;
+        text-align: center;
+        font-size: .8em;
         text-transform: uppercase;
     }
 
