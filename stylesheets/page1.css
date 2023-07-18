@@ -112,19 +112,6 @@ text-shadow: 0 0 0.2em rgb(5, 5, 5);
 color: rgba(255, 255, 255, 0.886);
 }
 
-#btn-contattaci:active{
-color: rgba(255, 255, 255, 0.386);
-transform: scale(1.1)
-}
-
-#btn-contattaci:hover{
-    transform: translateY(-4px);
-}
-
-#btn-contattaci input:hover{
-    background-color: rgba(255, 255, 255, 0.356);
-    transition: .1s;
-    }
     /****FOOTER***/
 
     .container-footer{
