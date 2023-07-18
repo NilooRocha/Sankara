@@ -22,7 +22,7 @@
         #open-page video{
           
             width: 0;
-            
+            display: none;
         }
 
 
