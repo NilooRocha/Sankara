@@ -4,7 +4,7 @@
     /***************SECOND-QUOTE************/
 
 #second-quote{
-    min-height: 120vh;
+    min-height: 110vh;
 }
 
     .content-second-quote {
@@ -26,6 +26,7 @@
 
     .p-author-quote{
         margin-top: 20px;
+        padding: 20px 50px 10px 50px;
     }
 
     .p-author-quote p {
@@ -40,7 +41,7 @@
 
     #img-children-second-quote {
         text-align: center;
-        margin-top: 90px;
+        margin-top: 170px;
         margin-bottom: 30px;
     }
 
@@ -66,7 +67,7 @@
 
 
        #second-quote {
-        min-height: 150vh;
+        min-height: 160vh;
 }
 
     .p-author-quote{
@@ -78,7 +79,7 @@
         text-align: center;
         font-size: 1em;
         text-transform: uppercase;
-   
+   padding: 20px 200px 10px 200px;
         
        }
 
@@ -106,13 +107,14 @@ padding: 0 70px 0 70px;
 
 /*IMG-PORTRAIT*/
 #img-children-second-quote img {
-width: 88%;
+width: 80%;
 border-radius: 50%;
 
 }
 
 #img-children-second-quote {
 text-align: center;
+margin-top: 80px;
 
 }
 

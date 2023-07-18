@@ -8,7 +8,7 @@
 
     #why-sankara {
        
-        min-height: 140vh;
+        min-height: 135vh;
         background-color: rgb(240, 240, 240);
 }
 
@@ -60,7 +60,7 @@
     /*************WHY-SANKARA***********/
 
     #why-sankara {
-        min-height: 180vh;
+        min-height: 190vh;
         background-color: rgb(240, 240, 240);
       
 }
@@ -91,7 +91,7 @@ text-align:start;
 
 /*IMG-PORTRAIT*/
 #img-city img {
-width: 100%;
+width: 80%;
 margin-top: 70px;
 border-radius: 50%;
 }

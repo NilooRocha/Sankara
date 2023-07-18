@@ -3,14 +3,14 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-        min-height: 130vh;
+        min-height: 110vh;
         color:  white;
         padding-top: 50px;
     }
 
 
     .content-thomas {
-        padding: 50px 70px 50px 70px;
+        padding: 50px 55px 50px 55px;
         flex-direction: column-reverse;
         display: flex;
 
@@ -19,19 +19,19 @@
 
 
     h2.title-first-quote {
-        font-size: 3em;
+        font-size: 1.9em;
         text-align: center;
         margin-bottom: 25px;
     }
 
     .p-first-quote p {
-        font-size: 2em;
+        font-size: 1.8em;
         text-align: center;
     }
 
     /*IMG-PORTRAIT*/
     #img-portrait img {
-        width: 75%;
+        width: 85%;
         margin-top: 50px;
         border-radius: 5%;
 
@@ -51,13 +51,13 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-        min-height: 130vh;
+        min-height: 180vh;
         color:  white;
     }
 
 
     .content-thomas {
-        padding: 60px 70px 60px 70px;
+        padding: 100px 70px 60px 70px;
         flex-direction: column-reverse;
         display: flex;
     }
