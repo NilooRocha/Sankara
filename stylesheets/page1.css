@@ -80,12 +80,12 @@ opacity: 1;
 
 
     .p-open-page p {
-        font-size: 1.4em;
+        font-size: 1.1em;
         text-shadow: rgba(0, 0, 0, 0.871) 0 0 0.1em;
     }
 
     .p-quote-author p {
-        font-size: .9em;
+        font-size: .7em;
         text-shadow: rgb(0, 0, 0) 0 0 0.1em;
     }
 
@@ -98,10 +98,10 @@ margin-top: 20px;
 
 #btn-contattaci input{
 border-color: rgba(84, 84, 84, 0.617);
-padding: 3px 7px 3px 7px;
+padding: 4px 7px 4px 7px;
 background-color: rgba(167, 167, 167, 0.125);
 border-radius: 45%;
-min-width: 48%;
+min-width: 49%;
 border: 1px solid rgba(224, 224, 224, 0.921);
 cursor: pointer;
 transition: ease-in-out all 0.4s;

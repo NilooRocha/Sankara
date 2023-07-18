@@ -45,13 +45,14 @@ h5.card-title{
 }
 
 .content-link button{
-    background-color: rgba(255, 255, 255, 0.244);
+    background-color: rgba(255, 255, 255, 0.175);
     max-width: 20%;
     border-radius: 9%;
-    border: 1px solid rgba(255, 255, 255, 0.424);
+    border: 1px solid rgba(255, 255, 255, 0.24);
     color:rgb(255, 255, 255);
     padding-top: 3px;
     padding-right: 6px;
+    font-size: .8em;
     }
     
     
@@ -129,10 +130,11 @@ small.text-body-secondary{
 
 
 .content-link button{
-    background-color: rgba(255, 255, 255, 0.244);
-    max-width: 20%;
+    
+    background-color: rgba(255, 255, 255, 0.175);
+    max-width: 10%;
     border-radius: 9%;
-    border: 1px solid rgba(255, 255, 255, 0.424);
+    border: 1px solid rgba(255, 255, 255, 0.24);
     color:rgb(255, 255, 255);
     padding-top: 3px;
     padding-right: 6px;
@@ -212,10 +214,10 @@ input.btn-home{
    */
  
 .content-link button{
-background-color: rgba(255, 255, 255, 0.244);
+    background-color: rgba(255, 255, 255, 0.175);
 max-width: 20%;
 border-radius: 9%;
-border: 1px solid rgba(255, 255, 255, 0.424);
+border: 1px solid rgba(255, 255, 255, 0.24);
 color:rgb(255, 255, 255);
 padding-top: 3px;
 padding-right: 6px;
