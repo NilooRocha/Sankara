@@ -14,24 +14,24 @@
     }
 
     .p-second-quote {
-         padding: 10px 40px 50px 40px;
+         padding: 10px 60px 50px 60px;
     }
 
     .p-quote-main  p{
-        text-align: center;
-        font-size: 1.6em;
+        text-align: start;
+        font-size: 1.3em;
        
     }
 
 
     .p-author-quote{
         margin-top: 20px;
-        padding: 20px 50px 10px 50px;
+        
     }
 
     .p-author-quote p {
-        text-align: center;
-        font-size: .8em;
+        text-align: start;
+        font-size: .6em;
         text-transform: uppercase;
     }
 
@@ -41,7 +41,7 @@
 
     #img-children-second-quote {
         text-align: center;
-        margin-top: 170px;
+        margin-top: 130px;
         margin-bottom: 30px;
     }
 
@@ -76,10 +76,10 @@
     }
 
     .p-author-quote p {
-        text-align: center;
+        text-align: start;
         font-size: 1em;
         text-transform: uppercase;
-   padding: 20px 200px 10px 200px;
+  
         
        }
 
@@ -92,15 +92,19 @@ display: flex;
 }
 
 
+.p-second-quote {
+    padding: 10px 60px 50px 60px;
+}
+
 .p-quote-main{
-    margin-top: 30px;
+    margin-top: 50px;
  
 }
 
 .p-quote-main p {
-font-size: 2em;
-text-align: center;
-padding: 0 70px 0 70px;
+font-size: 1.8em;
+text-align: start;
+
 }
 
 

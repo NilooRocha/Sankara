@@ -73,7 +73,7 @@ h2.title-contact{
     
     
     .img-contact{
-     width: 50%;
+     max-width: 65%;
     text-align: center;
     margin-top: 50px;
     
@@ -169,9 +169,8 @@ h2.title-contact{
     
     
     .img-contact{
-     width: 80%;
-    
-    margin-left: 75px;
+     max-width: 50%;
+    margin-left: -20px;
     
     }
     

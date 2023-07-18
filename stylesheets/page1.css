@@ -11,9 +11,9 @@
     
         min-width: 100%;
         min-height: 60vh;
-        background-size: cover;
+        background-size:cover;
         color:  white;
-       background-image: url(../images/foto-gazzelle.png);
+       background-image: url(../images/foto-gazzelle.jpg);
       background-repeat: no-repeat;
         }
     
@@ -69,7 +69,7 @@ opacity: 1;
 
     .title-open-page h1 {
         font-size: 3.9em;
-        font-family: 'Shippori Mincho', serif;
+        font-family: 'Shippori Mincho', Verdana, Arial;
         text-align: center;
         text-shadow: rgba(0, 0, 0, 0.69) 0 0 0.1em;
     }
@@ -107,7 +107,7 @@ cursor: pointer;
 transition: ease-in-out all 0.4s;
 font-weight:600;
 font-size: .7em;
-box-shadow: 0px 2px 3px rgba(72, 72, 72, 0.836);
+box-shadow: 0px 2.5px 3px rgba(72, 72, 72, 0.836);
 text-shadow: 0 0 0.2em rgb(5, 5, 5);
 color: rgba(255, 255, 255, 0.886);
 }
@@ -307,6 +307,7 @@ opacity: .71;
    text-shadow: 3px 3px rgba(0, 0, 0, 0.696);
 font-family: 'Righteous', cursive;
 letter-spacing: .5px;
+padding-top: -40px;
  
  }
 

@@ -3,7 +3,7 @@
 
     #first-quote {
         background-image: url("../images/Sfondo.jpg");
-        min-height: 110vh;
+        min-height: 130vh;
         color:  white;
         padding-top: 50px;
     }
@@ -70,13 +70,13 @@
     }
 
     h2.title-first-quote {
-        font-size: var(--title-sizeT);
+        font-size: 3em;
         text-align: center;
         margin-bottom: 40px;
     }
 
     .p-first-quote p {
-        font-size: 2.4em;
+        font-size: 1.9em;
         padding: 0 100px 0 100px;
 
 
