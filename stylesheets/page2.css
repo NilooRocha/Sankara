@@ -10,7 +10,7 @@
 
 
     .content-thomas {
-        padding: 50px 55px 50px 55px;
+        padding: 50px 40px 50px 40px;
         flex-direction: column-reverse;
         display: flex;
 
@@ -25,15 +25,18 @@
     }
 
     .p-first-quote p {
-        font-size: 1.8em;
+        font-size: 1.3em;
         text-align: center;
+          padding: 10px 60px 10px 60px;
     }
+
+    
 
     /*IMG-PORTRAIT*/
     #img-portrait img {
         width: 85%;
         margin-top: 50px;
-        border-radius: 5%;
+        border-radius: 50%;
 
     }
 
@@ -86,7 +89,7 @@
     #img-portrait img {
         width: 70%;
         margin-top: 70px;
-        border-radius: 5%;
+        border-radius: 50%;
     }
 
     #img-portrait {
@@ -141,7 +144,7 @@
 
     #img-portrait img {
         max-width: 80%;
-border-radius: 5%;
+border-radius: 50%;
     }
 
     #img-portrait {
