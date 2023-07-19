@@ -14,12 +14,12 @@
     }
 
     .p-second-quote {
-         padding: 10px 60px 50px 60px;
+         padding: 10px 40px 50px 40px;
     }
 
     .p-quote-main  p{
         text-align: start;
-        font-size: 1.3em;
+        font-size: 1.2em;
        
     }
 
@@ -31,7 +31,7 @@
 
     .p-author-quote p {
         text-align: start;
-        font-size: .6em;
+        font-size: .9em;
         text-transform: uppercase;
     }
 
